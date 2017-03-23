@@ -1,1 +1,0 @@
-var tipuesearch = {"pages":[{"tags":"misc","text":"2017Spring 機械設計工程系協同產品設計實習 課程倉儲: http://github.com/mdecourse/2017springcd 課程投影片: http://mdecourse.github.io/2017springcd 課程網誌: http://mdecourse.github.io/2017springcd/blog","title":"About","url":"./pages/about/"},{"tags":"Course","text":"week1","title":"week 1","url":"./brython-2d-drawing.html"}]};
