@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-19T11:00:00+08:00</updated><entry><title>week 4</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-03-19T11:00:00+08:00</published><updated>2017-03-19T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-19:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week4&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-19T11:00:00+08:00</updated><entry><title>week 4</title><link href="./week4.html" rel="alternate"></link><published>2017-03-19T11:00:00+08:00</published><updated>2017-03-19T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-19:./week4.html</id><summary type="html">&lt;p&gt;week4&lt;/p&gt;
 
 
 &lt;p&gt;課程內容 ：&lt;/p&gt;
@@ -13,109 +13,19 @@
 &lt;li&gt;
 &lt;p&gt;為各班各組在 https://mde2a2.kmol.info 主機上建立 cdbg1(完成後可直接連結至 cdbg1 倉儲, 交由組長管理) ~ cdbg8, 以及 cdag1 ~ cdag8 等線上 Fossil SCM 倉儲, 用來管理各組協同產品設計實習過程中的純文件檔案 (例如?).&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="brython"></category><category term="w4"></category></entry><entry><title>week 4</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-03-19T11:00:00+08:00</published><updated>2017-03-19T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-19:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week4&lt;/p&gt;
-
-
-&lt;p&gt;課程內容 ：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;利用網誌與簡報說明安裝或使用 Hyperworks 套件過程與心得 - 課程結束前, 希望能夠使用 Hyperworks 進行連桿機構零件的應力分析與機構運動模擬&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;平面四連桿機構的運動路徑方程式推導與網際 2D 繪圖, 方程式推導以 sympy 完成, 而 2D 繪圖則以 Brython 在各組網誌中完成. 先了解如何推導四連桿機構的運動方程式, 然後在各組網誌中完成靜態繪圖與動態模擬.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;為各班各組在 https://mde2a2.kmol.info 主機上建立 cdbg1(完成後可直接連結至 cdbg1 倉儲, 交由組長管理) ~ cdbg8, 以及 cdag1 ~ cdag8 等線上 Fossil SCM 倉儲, 用來管理各組協同產品設計實習過程中的純文件檔案 (例如?).&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="brython"></category><category term="w4"></category></entry><entry><title>week 4</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-03-19T11:00:00+08:00</published><updated>2017-03-19T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-19:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week4&lt;/p&gt;
-
-
-&lt;p&gt;課程內容 ：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;利用網誌與簡報說明安裝或使用 Hyperworks 套件過程與心得 - 課程結束前, 希望能夠使用 Hyperworks 進行連桿機構零件的應力分析與機構運動模擬&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;平面四連桿機構的運動路徑方程式推導與網際 2D 繪圖, 方程式推導以 sympy 完成, 而 2D 繪圖則以 Brython 在各組網誌中完成. 先了解如何推導四連桿機構的運動方程式, 然後在各組網誌中完成靜態繪圖與動態模擬.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;為各班各組在 https://mde2a2.kmol.info 主機上建立 cdbg1(完成後可直接連結至 cdbg1 倉儲, 交由組長管理) ~ cdbg8, 以及 cdag1 ~ cdag8 等線上 Fossil SCM 倉儲, 用來管理各組協同產品設計實習過程中的純文件檔案 (例如?).&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="brython"></category><category term="w4"></category></entry><entry><title>week 4</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-03-19T11:00:00+08:00</published><updated>2017-03-19T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-19:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week4&lt;/p&gt;
-
-
-&lt;p&gt;課程內容 ：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;利用網誌與簡報說明安裝或使用 Hyperworks 套件過程與心得 - 課程結束前, 希望能夠使用 Hyperworks 進行連桿機構零件的應力分析與機構運動模擬&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;平面四連桿機構的運動路徑方程式推導與網際 2D 繪圖, 方程式推導以 sympy 完成, 而 2D 繪圖則以 Brython 在各組網誌中完成. 先了解如何推導四連桿機構的運動方程式, 然後在各組網誌中完成靜態繪圖與動態模擬.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;為各班各組在 https://mde2a2.kmol.info 主機上建立 cdbg1(完成後可直接連結至 cdbg1 倉儲, 交由組長管理) ~ cdbg8, 以及 cdag1 ~ cdag8 等線上 Fossil SCM 倉儲, 用來管理各組協同產品設計實習過程中的純文件檔案 (例如?).&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="brython"></category><category term="w4"></category></entry><entry><title>week 3</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-03-12T11:00:00+08:00</published><updated>2017-03-12T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-12:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week3&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="brython"></category><category term="w4"></category></entry><entry><title>week 3</title><link href="./week3.html" rel="alternate"></link><published>2017-03-12T11:00:00+08:00</published><updated>2017-03-12T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-12:./week3.html</id><summary type="html">&lt;p&gt;week3&lt;/p&gt;
 
 
 &lt;p&gt;課程內容：&lt;/p&gt;
 &lt;p&gt;1.翻譯影片
 2.利用solvespace組立及v-rep轉入
 3.利用onshape組立及v-rep轉入
-4.Solvespace 輸入三角形頂點運動軌跡&lt;/p&gt;</summary><category term="brython"></category><category term="w3"></category></entry><entry><title>week 3</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-03-12T11:00:00+08:00</published><updated>2017-03-12T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-12:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week3&lt;/p&gt;
-
-
-&lt;p&gt;課程內容：&lt;/p&gt;
-&lt;p&gt;1.翻譯影片
-2.利用solvespace組立及v-rep轉入
-3.利用onshape組立及v-rep轉入
-4.Solvespace 輸入三角形頂點運動軌跡&lt;/p&gt;</summary><category term="brython"></category><category term="w3"></category></entry><entry><title>week 3</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-03-12T11:00:00+08:00</published><updated>2017-03-12T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-12:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week3&lt;/p&gt;
-
-
-&lt;p&gt;課程內容：&lt;/p&gt;
-&lt;p&gt;1.翻譯影片
-2.利用solvespace組立及v-rep轉入
-3.利用onshape組立及v-rep轉入
-4.Solvespace 輸入三角形頂點運動軌跡&lt;/p&gt;</summary><category term="brython"></category><category term="w3"></category></entry><entry><title>week 3</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-03-12T11:00:00+08:00</published><updated>2017-03-12T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-12:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week3&lt;/p&gt;
-
-
-&lt;p&gt;課程內容：&lt;/p&gt;
-&lt;p&gt;1.翻譯影片
-2.利用solvespace組立及v-rep轉入
-3.利用onshape組立及v-rep轉入
-4.Solvespace 輸入三角形頂點運動軌跡&lt;/p&gt;</summary><category term="brython"></category><category term="w3"></category></entry><entry><title>week 2</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-03-04T11:00:00+08:00</published><updated>2017-03-04T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-04:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week2&lt;/p&gt;
+4.Solvespace 輸入三角形頂點運動軌跡&lt;/p&gt;</summary><category term="brython"></category><category term="w3"></category></entry><entry><title>week 2</title><link href="./week2.html" rel="alternate"></link><published>2017-03-04T11:00:00+08:00</published><updated>2017-03-04T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-04:./week2.html</id><summary type="html">&lt;p&gt;week2&lt;/p&gt;
 
 
 &lt;p&gt;課程內容 ：&lt;/p&gt;
 &lt;p&gt;1.更改stunnel設定檔ip位址
-2.利用solvespace組立及v-rep應用&lt;/p&gt;</summary><category term="brython"></category><category term="w2"></category></entry><entry><title>week 2</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-03-04T11:00:00+08:00</published><updated>2017-03-04T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-04:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week2&lt;/p&gt;
-
-
-&lt;p&gt;課程內容 ：&lt;/p&gt;
-&lt;p&gt;1.更改stunnel設定檔ip位址
-2.利用solvespace組立及v-rep應用&lt;/p&gt;</summary><category term="brython"></category><category term="w2"></category></entry><entry><title>week 2</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-03-04T11:00:00+08:00</published><updated>2017-03-04T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-04:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week2&lt;/p&gt;
-
-
-&lt;p&gt;課程內容 ：&lt;/p&gt;
-&lt;p&gt;1.更改stunnel設定檔ip位址
-2.利用solvespace組立及v-rep應用&lt;/p&gt;</summary><category term="brython"></category><category term="w2"></category></entry><entry><title>week 2</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-03-04T11:00:00+08:00</published><updated>2017-03-04T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-04:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week2&lt;/p&gt;
-
-
-&lt;p&gt;課程內容 ：&lt;/p&gt;
-&lt;p&gt;1.更改stunnel設定檔ip位址
-2.利用solvespace組立及v-rep應用&lt;/p&gt;</summary><category term="brython"></category><category term="w2"></category></entry><entry><title>week 1</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-02-26T11:00:00+08:00</published><updated>2017-02-26T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-02-26:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week1&lt;/p&gt;
-
-
-&lt;p&gt;課程內容 ：&lt;/p&gt;
-&lt;p&gt;1.利用solvespace及onshape組裝四連桿機構&lt;/p&gt;</summary><category term="brython"></category><category term="w1"></category></entry><entry><title>week 1</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-02-26T11:00:00+08:00</published><updated>2017-02-26T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-02-26:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week1&lt;/p&gt;
-
-
-&lt;p&gt;課程內容 ：&lt;/p&gt;
-&lt;p&gt;1.利用solvespace及onshape組裝四連桿機構&lt;/p&gt;</summary><category term="brython"></category><category term="w1"></category></entry><entry><title>week 1</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-02-26T11:00:00+08:00</published><updated>2017-02-26T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-02-26:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week1&lt;/p&gt;
-
-
-&lt;p&gt;課程內容 ：&lt;/p&gt;
-&lt;p&gt;1.利用solvespace及onshape組裝四連桿機構&lt;/p&gt;</summary><category term="brython"></category><category term="w1"></category></entry><entry><title>week 1</title><link href="./brython-2d-drawing.html" rel="alternate"></link><published>2017-02-26T11:00:00+08:00</published><updated>2017-02-26T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-02-26:./brython-2d-drawing.html</id><summary type="html">&lt;p&gt;week1&lt;/p&gt;
+2.利用solvespace組立及v-rep應用&lt;/p&gt;</summary><category term="brython"></category><category term="w2"></category></entry><entry><title>week 1</title><link href="./week1.html" rel="alternate"></link><published>2017-02-26T11:00:00+08:00</published><updated>2017-02-26T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-02-26:./week1.html</id><summary type="html">&lt;p&gt;week1&lt;/p&gt;
 
 
 &lt;p&gt;課程內容 ：&lt;/p&gt;
