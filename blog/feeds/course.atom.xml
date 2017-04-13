@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-03-30T11:00:00+08:00</updated><entry><title>[Week 6] 課程內容整理</title><link href="./week6.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-30:./week6.html</id><summary type="html">&lt;p&gt;[Week 6] 第六週課程內容概要整理。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-04-06T11:00:00+08:00</updated><entry><title>[Week 7] 課程內容整理</title><link href="./week7.html" rel="alternate"></link><published>2017-04-06T11:00:00+08:00</published><updated>2017-04-06T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-04-06:./week7.html</id><summary type="html">&lt;p&gt;[Week 7] 第七週課程內容概要整理。&lt;/p&gt;
+&lt;p&gt;1.將畫好的四連桿轉入v-rep模擬&lt;/p&gt;
+
+
+&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;圖片與影片正在後製處理中...預計上傳時間 2017/04/16..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w7"></category></entry><entry><title>[Week 6] 課程內容整理</title><link href="./week6.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-30:./week6.html</id><summary type="html">&lt;p&gt;[Week 6] 第六週課程內容概要整理。&lt;/p&gt;
 &lt;p&gt;1.利用onshape完成四連桿和八連桿的繪製和組裝
 2.將畫好的零件利用v-rep做連桿動作模擬
 利用onshape畫出四連桿&lt;/p&gt;
 
 
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;內容待整理...預計上傳時間 2017/04/09..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w6"></category></entry><entry><title>[Week 5] 課程內容整理</title><link href="./week5.html" rel="alternate"></link><published>2017-03-23T11:00:00+08:00</published><updated>2017-03-23T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-23:./week5.html</id><summary type="html">&lt;p&gt;[Week 5] 第五週課程內容概要整理。&lt;/p&gt;
+&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;圖片與影片正在後製處理中...預計上傳時間 2017/04/16..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w6"></category></entry><entry><title>[Week 5] 課程內容整理</title><link href="./week5.html" rel="alternate"></link><published>2017-03-23T11:00:00+08:00</published><updated>2017-03-23T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-23:./week5.html</id><summary type="html">&lt;p&gt;[Week 5] 第五週課程內容概要整理。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;利用v-rep設定單連桿運動&lt;/li&gt;
 &lt;/ol&gt;
 
 
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;內容待整理...預計上傳時間 2017/04/09..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w5"></category></entry><entry><title>[Week 4] 課程內容整理</title><link href="./week4.html" rel="alternate"></link><published>2017-03-16T11:00:00+08:00</published><updated>2017-03-16T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-16:./week4.html</id><summary type="html">&lt;p&gt;[Week 4] 第四週課程內容概要整理。&lt;/p&gt;
+&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;圖片與影片正在後製處理中...預計上傳時間 2017/04/16..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w5"></category></entry><entry><title>[Week 4] 課程內容整理</title><link href="./week4.html" rel="alternate"></link><published>2017-03-16T11:00:00+08:00</published><updated>2017-03-16T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-16:./week4.html</id><summary type="html">&lt;p&gt;[Week 4] 第四週課程內容概要整理。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;說明安裝或使用 Hyperworks 套件過程與心得&lt;/p&gt;
@@ -28,20 +32,21 @@
 &lt;/ol&gt;
 
 
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;內容待整理...預計上傳時間 2017/04/09..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w4"></category></entry><entry><title>[Week 3] 課程內容整理</title><link href="./week3.html" rel="alternate"></link><published>2017-03-09T11:00:00+08:00</published><updated>2017-03-09T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-09:./week3.html</id><summary type="html">&lt;p&gt;[Week 3] 第三週課程內容概要整理。&lt;/p&gt;
+&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;圖片與影片正在後製處理中...預計上傳時間 2017/04/16..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w4"></category></entry><entry><title>[Week 3] 課程內容整理</title><link href="./week3.html" rel="alternate"></link><published>2017-03-09T11:00:00+08:00</published><updated>2017-03-09T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-09:./week3.html</id><summary type="html">&lt;p&gt;[Week 3] 第三週課程內容概要整理。&lt;/p&gt;
 &lt;p&gt;1.各組派兩人翻譯影片
 2.利用solvespace組立及v-rep轉入
 3.利用onshape組立及v-rep轉入
 4.Solvespace 輸入三角形頂點運動軌跡&lt;/p&gt;
 
 
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;內容待整理...預計上傳時間 2017/04/09..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w3"></category></entry><entry><title>[Week 2] 課程內容整理</title><link href="./week2.html" rel="alternate"></link><published>2017-03-02T11:00:00+08:00</published><updated>2017-03-02T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-02:./week2.html</id><summary type="html">&lt;p&gt;[Week 2] 第二週課程內容概要整理。&lt;/p&gt;
+&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;圖片與影片正在後製處理中...預計上傳時間 2017/04/16..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w3"></category></entry><entry><title>[Week 2] 課程內容整理</title><link href="./week2.html" rel="alternate"></link><published>2017-03-02T11:00:00+08:00</published><updated>2017-03-02T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-02:./week2.html</id><summary type="html">&lt;p&gt;[Week 2] 第二週課程內容概要整理。&lt;/p&gt;
 &lt;p&gt;1.更改stunnel設定檔ip位址
 2.利用solvespace組立及v-rep應用&lt;/p&gt;
 
 
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;內容待整理...預計上傳時間 2017/04/09..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w2"></category></entry><entry><title>[Week 1] 課程內容整理</title><link href="./week1.html" rel="alternate"></link><published>2017-02-23T11:00:00+08:00</published><updated>2017-02-23T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-02-23:./week1.html</id><summary type="html">&lt;p&gt;[Week 1] 第一週課程內容概要整理。&lt;/p&gt;
-&lt;p&gt;1.利用solvespace及onshape組裝四連桿機構&lt;/p&gt;
+&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;圖片與影片正在後製處理中...預計上傳時間 2017/04/16..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w2"></category></entry><entry><title>[Week 1] 課程內容整理</title><link href="./week1.html" rel="alternate"></link><published>2017-02-23T11:00:00+08:00</published><updated>2017-02-23T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-02-23:./week1.html</id><summary type="html">&lt;p&gt;[Week 1] 第一週課程內容概要整理。&lt;/p&gt;
+&lt;p&gt;1.建立工作環境
+2.利用solvespace及onshape組裝四連桿機構&lt;/p&gt;
 
 
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;內容待整理...預計上傳時間 2017/04/09..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w1"></category></entry></feed>
+&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;圖片與影片正在後製處理中...預計上傳時間 2017/04/16..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w1"></category></entry></feed>
