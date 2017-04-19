@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>[Github] Page build failure - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="./week6_1.html">
+
+        <meta name="author" content="40423117" />
+        <meta name="keywords" content="week6,github" />
+        <meta name="description" content="[解決倉儲推送時，出現之問題]" />
+
+        <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="[Github] Page build failure"/>
+        <meta property="og:url" content="./week6_1.html"/>
+        <meta property="og:description" content="[解決倉儲推送時，出現之問題]"/>
+        <meta property="article:published_time" content="2017-03-30" />
+            <meta property="article:section" content="Course" />
+            <meta property="article:tag" content="week6" />
+            <meta property="article:tag" content="github" />
+            <meta property="article:author" content="40423117" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="2017Spring 協同產品設計實習 (虎尾科大MDE) ATOM Feed"/>
+
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushBash.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+2017Spring 協同產品設計實習 (虎尾科大MDE)            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="./pages/about/">
+                             About
+                          </a></li>
+                        <li class="active">
+                            <a href="./category/course.html">Course</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="./search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+              <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./week6_1.html"
+                       rel="bookmark"
+                       title="Permalink to [Github] Page build failure">
+                        [Github] Page build failure
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-03-30T11:05:00+08:00"> 週四 30 三月 2017</time>
+    </span>
+            <span class="label label-default">By</span>
+            <a href="./author/40423117.html"><i class="fa fa-user"></i> 40423117</a>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/week6.html">week6</a>
+        /
+	<a href="./tag/github.html">github</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>[<b><font color="#FF0000">解決倉儲推送時，出現之問題</font></b>]</p>
+
+
+<hr/>
+
+<h3>[Github] 寄信告知問題</h3>
+<hr/>
+
+<p><img src="./../data/w6/Page_1.JPG" height="450px"></p>
+<h3>信件全文</h3>
+<hr/>
+
+<p>The page build failed with the following error:</p>
+<p>The tag <code>{% ... %}</code> on line 5 in <code>plugin/liquid_tags/Readme.md</code> was not properly closed with <code>%}</code>. For more information, see <a href="https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/">https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/</a>.</p>
+<p>For information on troubleshooting Jekyll see:</p>
+<p><a href="https://help.github.com/articles/troubleshooting-jekyll-builds">https://help.github.com/articles/troubleshooting-jekyll-builds</a></p>
+<p>If you have any questions you can contact us by replying to this email.</p>
+<h3>解決辦法</h3>
+<hr/>
+
+<p><img src="./../data/w6/Page_2.JPG" height="450px"></p>
+<p>至倉儲資料夾，於  <code>plugin\liquid_tags</code> 資料夾中的  <code>Readme.md</code>  檔案，將原本的 <code>}</code> 改成 <code>}}</code> </p>
+<p>更改後，程式碼如下：</p>
+<pre class="brush: python">
+# Liquid-style Tags
+*Author: Jake Vanderplas <jakevdp@cs.washington.edu>*
+
+This plugin allows liquid-style tags to be inserted into markdown within
+Pelican documents. Liquid uses tags bounded by ``{{% ... %}}``, and is used
+to extend markdown in other blogging platforms such as octopress.
+
+This set of extensions does not actually interface with liquid, but allows
+users to define their own liquid-style tags which will be inserted into
+the markdown preprocessor stream.  There are several built-in tags, which
+can be added as follows.
+
+First, in your pelicanconf.py file, add the plugins you want to  use:
+
+    PLUGIN_PATH = '/path/to/pelican-plugins'
+    PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
+               'liquid_tags.youtube', 'liquid_tags.vimeo',
+               'liquid_tags.include_code', 'liquid_tags.notebook']
+
+There are several options available
+
+## Image Tag
+To insert a sized and labeled image in your document, enable the
+``liquid_tags.img`` plugin and use the following:
+
+    {{% img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}}
+
+### Base64 Image (inline image) tag
+
+There is one more tag for image: ``b64img``. It is based on ``img`` tag, but instead of inserting link on image it acutally reads image and inserts it as base64 text into ``<img src=`` attribute.
+
+To use it:
+
+1. Enable ``liquid_tags.b64img``
+1. Insert tag as you'd insert image one: ``{{% b64img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}}``
+
+Images are read on compilation phase so you can use any local path (just be sure that image will remain there on next compilation)
+
+## Instagram Tag
+To insert a sized and labeled Instagram image in your document by its shortcode (such as ``pFI0CAIZna``), enable the ``liquid_tags.gram`` plugin and use the following:
+
+    {{% gram shortcode [size] [width] [class name(s)] [title text | "title text" ["alt text"]] %}}
+
+You can specify a size with `t`, `m`, or `l`.
+
+## Flickr Tag
+To insert a Flickr image to a post, follow these steps:
+
+1. Enable ``liquid_tags.flickr``
+2. [Get an API key from Flickr](https://www.flickr.com/services/apps/create/apply)
+3. Add FLICKR_API_KEY to your config
+4. Add this to your document:
+
+    ``{{% flickr image_id [small|medium|large] ["alt text"|'alt text'] %}}``
+
+## Giphy Tag
+To insert a gif from Giphy in your document by its id (such as ``aMSJFS6oFX0fC``), enable the ``liquid_tags.giphy`` plugin and use the following:
+
+    {{% giphy gif_id ["alt text"|'alt text'] %}}
+
+IMPORTANT: You have to request a production API key from giphy [here](https://api.giphy.com/submit).
+For the first runs you could also use the public beta key you can get [here](https://github.com/giphy/GiphyAPI).
+
+## Soundcloud Tag
+To insert a Soundcloud Widget to a post, follow these steps:
+
+1. Enable ``liquid_tags.soundcloud``
+2. Add this to your document:
+
+    ``{{% soundcloud track_url %}}``
+
+## Youtube Tag
+To insert youtube video into a post, enable the
+``liquid_tags.youtube`` plugin, and add to your document:
+
+    {{% youtube youtube_id [width] [height] %}}
+
+The width and height are in pixels, and can be optionally specified.  If they
+are not, then the dimensions will be 640 (wide) by 390 (tall).
+
+If you're experiencing issues with code generating (i.e. missing closing tags), add `SUMMARY_MAX_LENGTH = None` to your config.
+
+## Vimeo Tag
+To insert a Vimeo video into a post, enable the
+``liquid_tags.vimeo`` plugin, and add to your document:
+
+    {{% vimeo vimeo_id [width] [height] %}}
+
+The width and height are in pixels, and can be optionally specified.  If they
+are not, then the dimensions will be 640 (wide) by 390 (tall).
+
+If you're experiencing issues with code generating (i.e. missing closing tags), add `SUMMARY_MAX_LENGTH = None` to your config.
+
+## Video Tag
+To insert flash/HTML5-friendly video into a post, enable the
+``liquid_tags.video`` plugin, and add to your document:
+
+    {{% video /url/to/video.mp4 [width] [height] [/path/to/poster.png] %}}
+
+The width and height are in pixels, and can be optionally specified.  If they
+are not, then the original video size will be used.  The poster is an image
+which is used as a preview of the video.
+
+To use a video from file, make sure it's in a static directory and put in
+the appropriate url.
+
+## Audio Tag
+To insert HTML5 audio into a post, enable the ``liquid_tags.audio`` plugin,
+and add to your document:
+
+    {{% audio url/to/audio [url/to/audio] [url/to/audio] %}}
+
+Up to 3 audio urls are possible. So you can add different versions of
+the audio file you want to post because not every browser support every
+file format.
+
+To use a audio from file, make sure it's in a static directory and put in
+the appropriate url.
+
+## Include Code
+To include code from a file in your document with a link to the original
+file, enable the ``liquid_tags.include_code`` plugin, and add to your
+document:
+
+    {{% include_code /path/to/code.py [lang:python] [lines:X-Y] [:hidefilename:] [title] %}}
+
+All arguments are optional but their order must be kept. `:hidefilename:` is
+only allowed if a title is also given.
+
+    {{% include_code /path/to/code.py lines:1-10 :hidefilename: Test Example %}}
+
+This example will show the first 10 lines of the file while hiding the actual
+filename.
+
+The script must be in the ``code`` subdirectory of your content folder:
+this default location can be changed by specifying
+
+    CODE_DIR = 'code'
+
+within your configuration file. Additionally, in order for the resulting
+hyperlink to work, this directory must be listed under the STATIC_PATHS
+setting, e.g.:
+
+    STATIC_PATHS = ['images', 'code']
+
+## IPython notebooks
+
+To insert an [IPython][] notebook into your post, enable the
+``liquid_tags.notebook`` plugin and add to your document:
+
+    {{% notebook filename.ipynb %}}
+
+The file should be specified relative to the ``notebooks`` subdirectory of the
+content directory.  Optionally, this subdirectory can be specified in the
+config file:
+
+    NOTEBOOK_DIR = 'notebooks'
+
+Because the conversion and rendering of notebooks is rather involved, there
+are a few extra steps required for this plugin:
+
+- First, you will need to install IPython:
+
+      pip install ipython==2.4.1
+
+- After typing "make html" when using the notebook tag, a file called
+  ``_nb_header.html`` will be produced in the main directory.  The content
+  of the file should be included in the header of the theme.  An easy way
+  to accomplish this is to add the following lines within the header template
+  of the theme you use:
+
+      {{% if EXTRA_HEADER %}}
+      {{ EXTRA_HEADER }}
+      {{% endif %}}
+
+  and in your configuration file, include the line:
+
+      EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+
+  this will insert the proper css formatting into your document.
+
+### Optional Arguments for Notebook Tags
+
+The notebook tag also has two optional arguments: ``cells`` and ``language``.
+
+- You can specify a slice of cells to include:
+
+  ``{{% notebook filename.ipynb cells[2:8] %}}``
+
+- You can also specify the name of a language which Pygments should use for
+  highlighting code cells. A list of the short names for languages that Pygments
+  will highlight can be found [here](http://www.pygments.org/docs/lexers/).
+
+  ``{{% notebook filename.ipynb language[julia] %}}``
+
+  This may be helpful for those using [IJulia](https://github.com/JuliaLang/IJulia.jl)
+  or notebooks in any other language, especially as the IPython project [broadens its
+  scope](https://github.com/ipython/ipython/wiki/Roadmap:-IPython) of [language
+  compatibility](http://jupyter.org/). By default, the language for highlighting
+  will be ``ipython``.
+
+- These options can be used separately, together, or not at all. However,
+  if both tags are used then ``cells`` must come before ``language``:
+
+  ``{{% notebook filename.ipynb cells[2:8] language[julia] %}}``
+
+### Collapsible Code in IPython Notebooks
+
+The plugin also enables collapsible code input boxes. For this to work
+you first need to copy the file ``pelicanhtml_3.tpl`` (for IPython
+3.x, ``pelicanhtml_2.tpl`` (for IPython 2.x)...) to the top level of your
+Pelican blog. Notebook input cells containing the comment line ``#
+<!-- collapse=True -->`` will be collapsed when the html page is
+loaded and can be expanded by clicking on them. Cells containing the
+comment line ``# <!-- collapse=False -->`` will be open on load but
+can be collapsed by clicking on their header. Cells without collapse
+comments are rendered as standard code input cells.
+
+## Testing
+
+To test the plugin in multiple environments we use [tox](http://tox.readthedocs.org/en/latest/), to run the entire test suite, just type:
+
+
+wzxhzdk:0
+
+
+[IPython]: http://ipython.org/
+</pre>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="./week9_1.html">
+                            [懶人包] 期中前要做的事
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./week6_1.html">
+                            [Github] Page build failure
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./week6.html">
+                            [Week 6] 課程內容整理
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./week5.html">
+                            [Week 5] 課程內容整理
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./week4.html">
+                            [Week 4] 課程內容整理
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+                <ul class="list-group" id="categories">
+                    <li class="list-group-item">
+                        <a href="./category/course.html">
+                            <i class="fa fa-folder-open fa-lg"></i> Course
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group list-inline tagcloud" id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/DandyDev/pelican-bootstrap3/" target="_blank">
+                pelican-bootstrap3
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/getpelican/pelican-plugins" target="_blank">
+                pelican-plugins
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/Tipue/Tipue-Search" target="_blank">
+                Tipue search
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2017 KMOL
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="./theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- for https://github.com/jsor/lity lightbox video popup -->
+
+<link href="./theme/css/lity.css" rel="stylesheet">
+
+<script src="./theme/js/lity.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+
+</body>
+</html>

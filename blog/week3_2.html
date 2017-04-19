@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>[Hyperworker3] 翻譯 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="./week3_2.html">
+
+        <meta name="author" content="40423117" />
+        <meta name="keywords" content="week3" />
+        <meta name="description" content="[Week 3] 第三週作業之一 Hyperworker3 翻譯。" />
+
+        <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="[Hyperworker3] 翻譯"/>
+        <meta property="og:url" content="./week3_2.html"/>
+        <meta property="og:description" content="[Week 3] 第三週作業之一 Hyperworker3 翻譯。"/>
+        <meta property="article:published_time" content="2017-03-09" />
+            <meta property="article:section" content="Course" />
+            <meta property="article:tag" content="week3" />
+            <meta property="article:author" content="40423117" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="2017Spring 協同產品設計實習 (虎尾科大MDE) ATOM Feed"/>
+
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushBash.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+2017Spring 協同產品設計實習 (虎尾科大MDE)            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="./pages/about/">
+                             About
+                          </a></li>
+                        <li class="active">
+                            <a href="./category/course.html">Course</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="./search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+              <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./week3_2.html"
+                       rel="bookmark"
+                       title="Permalink to [Hyperworker3] 翻譯">
+                        [Hyperworker3] 翻譯
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-03-09T10:02:00+08:00"> 週四 09 三月 2017</time>
+    </span>
+            <span class="label label-default">By</span>
+            <a href="./author/40423117.html"><i class="fa fa-user"></i> 40423117</a>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/week3.html">week3</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>[Week 3] 第三週作業之一</p>
+<ol>
+<li>Hyperworker3 翻譯。</li>
+</ol>
+
+
+<hr/>
+
+<iframe src="https://player.vimeo.com/video/207229503" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p>In OptiStruct, one of our focus areas is nonlinear large deformation analysis.</p>
+<p><code>在OptiStruct中，我們的一個重點領域是非線性大變形分析。</code></p>
+<p>And in 2017 we added nonlinear transient analysis.</p>
+<p><code>在2017年，我們添加了非線性瞬態分析</code></p>
+<p>The main purpose was to couple AcuSolve to do fluid-structure interaction.</p>
+<p><code>主要目的是使AcuSolve與流體 - 結構相互作用。</code></p>
+<p>But also one development that happened during the last year came out piece-wise in different point releases and is now really mature.</p>
+<p><code>但是，在過去一年中發生的一個發展，在不同的積分發布中分段出現，現在已經成熟。</code></p>
+<p>And 2017 is our contact analysis, so we have different ways of defining sliding contact and things like that.</p>
+<p><code>2017年是我們的接觸分析，所以我們有不同的方式來定義滑動接觸和類似的東西。</code></p>
+<p>The fast contact analysis for small deformation is blazing fast.</p>
+<p><code>對小變形的快速接觸分析是快速的。</code></p>
+<p>It’s a very simple idea that makes the solution very fast, and that adds OptiStruct as really a leading nonlinear structural solver.</p>
+<p><code>這是一個非常簡單的想法，使解決方案非常快，並將OptiStruct添加為真正的領先的非線性結構求解器。</code></p>
+<p>Our two major optimization packages are OptiStruct for structural optimization, there’s a huge multidisciplinary component, too.</p>
+<p><code>我們的兩個主要優化包是用於結構優化的OptiStruct，還有一個巨大的多學科組件。</code></p>
+<p>And Hyperstudy for general optimization wrap around multidisciplinary optimization.</p>
+<p><code>並且Hyperstudy對一般優化包圍多學科優化。</code></p>
+<p>[For] OptiStruct we spend a lot of time continuing the development for optimization and we have now Failsafe topology optimization.</p>
+<p><code>[For] OptiStruct我們花了很多時間繼續開發優化，我們現在已經失效的拓撲優化。</code></p>
+<p>We kept on working on the manufacturing solution to do lattice optimization.</p>
+<p><code>我們一直在製造解決方案上做晶格優化。</code></p>
+<p>For the multi-model optimization it’s really maturing and we find more and more applications where that helps.</p>
+<p><code>對於多模型優化，它真的成熟，我們發現越來越多的應用程序，這有助於。</code></p>
+<p>Our goal is actually to include all the physics in the optimizations.</p>
+<p><code>我們的目標實際上是在優化中包括所有的物理。</code></p>
+<p>So the team right now is working on optimization for nonlinear problems and so on.</p>
+<p><code>所以團隊現在正在努力優化非線性問題等等。</code></p>
+<p>And then Hyperstudy, on the other hand, is going through a new transformation of the user the user experience was changed a few years back, but we are now trying to make it much more easy to use by hiding a lot of the advanced functionalities to the regular users.</p>
+<p><code>另一方面，Hyperstudy正在經歷用戶體驗在幾年前改變的用戶體驗的一個新的轉變，但是我們現在試圖通過隱藏許多高級功能來使它更容易使用 普通用戶。</code></p>
+<p>And depending on the level of expertise or depending on the job that the user has to do, they can customize the user experience.</p>
+<p><code>並且取決於專業水平或者根據用戶必須做的工作，他們可以定制用戶體驗。</code></p>
+<p>We adds a few new connections.</p>
+<p><code>我們添加了一些新的連接。</code></p>
+<p>One of them is a Flux connection.</p>
+<p><code>其中一個是Flux連接。</code></p>
+<p>Flux is an electromagnetics code that we just acquired for low frequency electromagnetics, so we can all take a Flux database and put it into Hyperstudy into the study with that.</p>
+<p><code>Flux是我們剛剛為低頻電磁學採集的電磁學代碼，所以我們可以採用一個Flux數據庫，並把它放入Hyperstudy進行研究。</code></p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="./week9_1.html">
+                            [懶人包] 期中前要做的事
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./week6_1.html">
+                            [Github] Page build failure
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./week6.html">
+                            [Week 6] 課程內容整理
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./week5.html">
+                            [Week 5] 課程內容整理
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./week4.html">
+                            [Week 4] 課程內容整理
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+                <ul class="list-group" id="categories">
+                    <li class="list-group-item">
+                        <a href="./category/course.html">
+                            <i class="fa fa-folder-open fa-lg"></i> Course
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group list-inline tagcloud" id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/DandyDev/pelican-bootstrap3/" target="_blank">
+                pelican-bootstrap3
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/getpelican/pelican-plugins" target="_blank">
+                pelican-plugins
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/Tipue/Tipue-Search" target="_blank">
+                Tipue search
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2017 KMOL
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="./theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- for https://github.com/jsor/lity lightbox video popup -->
+
+<link href="./theme/css/lity.css" rel="stylesheet">
+
+<script src="./theme/js/lity.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+
+</body>
+</html>

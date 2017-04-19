@@ -1,47 +1,1033 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-30T11:00:00+08:00</updated><entry><title>[Week 6] 課程內容整理</title><link href="./week6.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-30:./week6.html</id><summary type="html">&lt;p&gt;[Week 6] 第六週課程內容概要整理。&lt;/p&gt;
-&lt;p&gt;1.利用onshape完成四連桿和八連桿的繪製和組裝
-2.將畫好的零件利用v-rep做連桿動作模擬
-利用onshape畫出四連桿&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-20T05:00:00+08:00</updated><entry><title>[懶人包] 期中前要做的事</title><link href="./week9_1.html" rel="alternate"></link><published>2017-04-20T05:00:00+08:00</published><updated>2017-04-20T05:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-04-20:./week9_1.html</id><summary type="html">&lt;p&gt;有鑒於方便資料整合，故將期中之前的筆記統整成一篇文章，方便其他同學能夠利用最少的時間，學到期中前這幾週老師的課程內容。&lt;/p&gt;
 
 
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;內容待整理...預計上傳時間 2017/04/09..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w6"></category></entry><entry><title>[Week 5] 課程內容整理</title><link href="./week5.html" rel="alternate"></link><published>2017-03-23T11:00:00+08:00</published><updated>2017-03-23T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-23:./week5.html</id><summary type="html">&lt;p&gt;[Week 5] 第五週課程內容概要整理。&lt;/p&gt;
+&lt;hr/&gt;
+
+&lt;h3&gt;課程內容概要整理。&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;button onClick="lity('https://40423117.github.io/2017springcd_hw/blog/week1.html')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; [Week 1]&lt;/button&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;環境建立，可攜系統下載安裝&lt;/li&gt;
+&lt;li&gt;複習 &lt;a href="https://40423117.github.io/2016fallcadp_hw/blog/LazyPackage2016.html"&gt;上學期&lt;/a&gt; 的內容&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;button onClick="lity('https://40423117.github.io/2017springcd_hw/blog/week2.html')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; [Week 2]&lt;/button&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;修改Start.bat，讓程式自動更改stunnel設定檔ip位址&lt;/li&gt;
+&lt;li&gt;利用solvespace畫出四連桿機構組立&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;button onClick="lity('https://40423117.github.io/2017springcd_hw/blog/week3.html')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; [Week 3]&lt;/button&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;翻譯&lt;button onClick="lity('https://40423117.github.io/2017springcd_hw/blog/week3_1.html')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Hyperworker1&lt;/button&gt;、&lt;button onClick="lity('https://40423117.github.io/2017springcd_hw/blog/week3_2.html')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Hyperworker3&lt;/button&gt;&lt;/li&gt;
+&lt;li&gt;利用solvespace組立及v-rep轉入&lt;/li&gt;
+&lt;li&gt;Solvespace 輸入三角形頂點運動軌跡&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;button onClick="lity('https://40423117.github.io/2017springcd_hw/blog/week4.html')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; [Week 4]&lt;/button&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;平面四連桿機構的運動路徑方程式推導與網際 2D 繪圖,  2D 繪圖以 Brython 在各組網誌中完成&lt;/li&gt;
+&lt;li&gt;使用solvespace繪畫one_link，導入V-REP&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;[Week 5] 、 [Week 6] &lt;b&gt;&lt;font color="#FF0000"&gt;影片及圖文後製處理中...預計上傳時間 2017/04/22..&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;h3&gt;影片頻道&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;若有需要註解的地方都會在文章內&lt;b&gt;加圖片及文字&lt;/b&gt;，&lt;b&gt;影片皆已剪接,將不重要的地方刪減。&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Youtube 頻道期中總整理 全集：&lt;a href="https://www.youtube.com/playlist?list=PLPptPPsTHjR1vlVOafqnqgH1U0Xs-sueD"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;點我看&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vimeo 歷史紀錄：&lt;a href="https://vimeo.com/user44960495"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;點我看&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;歷史 OnShape 教學：&lt;a href="https://40423117.github.io/2016fallcadp_hw/blog/onshape-fen-zu-zuo-ye-week13.html"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;點我看&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;補充&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week1_1.html"&gt;設定Github之默認倉儲&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week6_1.html"&gt;解決倉儲推送時，出現之問題&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="week9"></category><category term="github"></category></entry><entry><title>[Github] Page build failure</title><link href="./week6_1.html" rel="alternate"></link><published>2017-03-30T11:05:00+08:00</published><updated>2017-03-30T11:05:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-30:./week6_1.html</id><summary type="html">&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;解決倉儲推送時，出現之問題&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;
+
+
+&lt;hr/&gt;
+
+&lt;h3&gt;[Github] 寄信告知問題&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;img src="./../data/w6/Page_1.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;h3&gt;信件全文&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;The page build failed with the following error:&lt;/p&gt;
+&lt;p&gt;The tag &lt;code&gt;{% ... %}&lt;/code&gt; on line 5 in &lt;code&gt;plugin/liquid_tags/Readme.md&lt;/code&gt; was not properly closed with &lt;code&gt;%}&lt;/code&gt;. For more information, see &lt;a href="https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/"&gt;https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For information on troubleshooting Jekyll see:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://help.github.com/articles/troubleshooting-jekyll-builds"&gt;https://help.github.com/articles/troubleshooting-jekyll-builds&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you have any questions you can contact us by replying to this email.&lt;/p&gt;
+&lt;h3&gt;解決辦法&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;img src="./../data/w6/Page_2.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;至倉儲資料夾，於  &lt;code&gt;plugin\liquid_tags&lt;/code&gt; 資料夾中的  &lt;code&gt;Readme.md&lt;/code&gt;  檔案，將原本的 &lt;code&gt;}&lt;/code&gt; 改成 &lt;code&gt;}}&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;更改後，程式碼如下：&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+# Liquid-style Tags
+*Author: Jake Vanderplas &lt;jakevdp@cs.washington.edu&gt;*
+
+This plugin allows liquid-style tags to be inserted into markdown within
+Pelican documents. Liquid uses tags bounded by ``{{% ... %}}``, and is used
+to extend markdown in other blogging platforms such as octopress.
+
+This set of extensions does not actually interface with liquid, but allows
+users to define their own liquid-style tags which will be inserted into
+the markdown preprocessor stream.  There are several built-in tags, which
+can be added as follows.
+
+First, in your pelicanconf.py file, add the plugins you want to  use:
+
+    PLUGIN_PATH = '/path/to/pelican-plugins'
+    PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
+               'liquid_tags.youtube', 'liquid_tags.vimeo',
+               'liquid_tags.include_code', 'liquid_tags.notebook']
+
+There are several options available
+
+## Image Tag
+To insert a sized and labeled image in your document, enable the
+``liquid_tags.img`` plugin and use the following:
+
+    {{% img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}}
+
+### Base64 Image (inline image) tag
+
+There is one more tag for image: ``b64img``. It is based on ``img`` tag, but instead of inserting link on image it acutally reads image and inserts it as base64 text into ``&lt;img src=`` attribute.
+
+To use it:
+
+1. Enable ``liquid_tags.b64img``
+1. Insert tag as you'd insert image one: ``{{% b64img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}}``
+
+Images are read on compilation phase so you can use any local path (just be sure that image will remain there on next compilation)
+
+## Instagram Tag
+To insert a sized and labeled Instagram image in your document by its shortcode (such as ``pFI0CAIZna``), enable the ``liquid_tags.gram`` plugin and use the following:
+
+    {{% gram shortcode [size] [width] [class name(s)] [title text | "title text" ["alt text"]] %}}
+
+You can specify a size with `t`, `m`, or `l`.
+
+## Flickr Tag
+To insert a Flickr image to a post, follow these steps:
+
+1. Enable ``liquid_tags.flickr``
+2. [Get an API key from Flickr](https://www.flickr.com/services/apps/create/apply)
+3. Add FLICKR_API_KEY to your config
+4. Add this to your document:
+
+    ``{{% flickr image_id [small|medium|large] ["alt text"|'alt text'] %}}``
+
+## Giphy Tag
+To insert a gif from Giphy in your document by its id (such as ``aMSJFS6oFX0fC``), enable the ``liquid_tags.giphy`` plugin and use the following:
+
+    {{% giphy gif_id ["alt text"|'alt text'] %}}
+
+IMPORTANT: You have to request a production API key from giphy [here](https://api.giphy.com/submit).
+For the first runs you could also use the public beta key you can get [here](https://github.com/giphy/GiphyAPI).
+
+## Soundcloud Tag
+To insert a Soundcloud Widget to a post, follow these steps:
+
+1. Enable ``liquid_tags.soundcloud``
+2. Add this to your document:
+
+    ``{{% soundcloud track_url %}}``
+
+## Youtube Tag
+To insert youtube video into a post, enable the
+``liquid_tags.youtube`` plugin, and add to your document:
+
+    {{% youtube youtube_id [width] [height] %}}
+
+The width and height are in pixels, and can be optionally specified.  If they
+are not, then the dimensions will be 640 (wide) by 390 (tall).
+
+If you're experiencing issues with code generating (i.e. missing closing tags), add `SUMMARY_MAX_LENGTH = None` to your config.
+
+## Vimeo Tag
+To insert a Vimeo video into a post, enable the
+``liquid_tags.vimeo`` plugin, and add to your document:
+
+    {{% vimeo vimeo_id [width] [height] %}}
+
+The width and height are in pixels, and can be optionally specified.  If they
+are not, then the dimensions will be 640 (wide) by 390 (tall).
+
+If you're experiencing issues with code generating (i.e. missing closing tags), add `SUMMARY_MAX_LENGTH = None` to your config.
+
+## Video Tag
+To insert flash/HTML5-friendly video into a post, enable the
+``liquid_tags.video`` plugin, and add to your document:
+
+    {{% video /url/to/video.mp4 [width] [height] [/path/to/poster.png] %}}
+
+The width and height are in pixels, and can be optionally specified.  If they
+are not, then the original video size will be used.  The poster is an image
+which is used as a preview of the video.
+
+To use a video from file, make sure it's in a static directory and put in
+the appropriate url.
+
+## Audio Tag
+To insert HTML5 audio into a post, enable the ``liquid_tags.audio`` plugin,
+and add to your document:
+
+    {{% audio url/to/audio [url/to/audio] [url/to/audio] %}}
+
+Up to 3 audio urls are possible. So you can add different versions of
+the audio file you want to post because not every browser support every
+file format.
+
+To use a audio from file, make sure it's in a static directory and put in
+the appropriate url.
+
+## Include Code
+To include code from a file in your document with a link to the original
+file, enable the ``liquid_tags.include_code`` plugin, and add to your
+document:
+
+    {{% include_code /path/to/code.py [lang:python] [lines:X-Y] [:hidefilename:] [title] %}}
+
+All arguments are optional but their order must be kept. `:hidefilename:` is
+only allowed if a title is also given.
+
+    {{% include_code /path/to/code.py lines:1-10 :hidefilename: Test Example %}}
+
+This example will show the first 10 lines of the file while hiding the actual
+filename.
+
+The script must be in the ``code`` subdirectory of your content folder:
+this default location can be changed by specifying
+
+    CODE_DIR = 'code'
+
+within your configuration file. Additionally, in order for the resulting
+hyperlink to work, this directory must be listed under the STATIC_PATHS
+setting, e.g.:
+
+    STATIC_PATHS = ['images', 'code']
+
+## IPython notebooks
+
+To insert an [IPython][] notebook into your post, enable the
+``liquid_tags.notebook`` plugin and add to your document:
+
+    {{% notebook filename.ipynb %}}
+
+The file should be specified relative to the ``notebooks`` subdirectory of the
+content directory.  Optionally, this subdirectory can be specified in the
+config file:
+
+    NOTEBOOK_DIR = 'notebooks'
+
+Because the conversion and rendering of notebooks is rather involved, there
+are a few extra steps required for this plugin:
+
+- First, you will need to install IPython:
+
+      pip install ipython==2.4.1
+
+- After typing "make html" when using the notebook tag, a file called
+  ``_nb_header.html`` will be produced in the main directory.  The content
+  of the file should be included in the header of the theme.  An easy way
+  to accomplish this is to add the following lines within the header template
+  of the theme you use:
+
+      {{% if EXTRA_HEADER %}}
+      {{ EXTRA_HEADER }}
+      {{% endif %}}
+
+  and in your configuration file, include the line:
+
+      EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+
+  this will insert the proper css formatting into your document.
+
+### Optional Arguments for Notebook Tags
+
+The notebook tag also has two optional arguments: ``cells`` and ``language``.
+
+- You can specify a slice of cells to include:
+
+  ``{{% notebook filename.ipynb cells[2:8] %}}``
+
+- You can also specify the name of a language which Pygments should use for
+  highlighting code cells. A list of the short names for languages that Pygments
+  will highlight can be found [here](http://www.pygments.org/docs/lexers/).
+
+  ``{{% notebook filename.ipynb language[julia] %}}``
+
+  This may be helpful for those using [IJulia](https://github.com/JuliaLang/IJulia.jl)
+  or notebooks in any other language, especially as the IPython project [broadens its
+  scope](https://github.com/ipython/ipython/wiki/Roadmap:-IPython) of [language
+  compatibility](http://jupyter.org/). By default, the language for highlighting
+  will be ``ipython``.
+
+- These options can be used separately, together, or not at all. However,
+  if both tags are used then ``cells`` must come before ``language``:
+
+  ``{{% notebook filename.ipynb cells[2:8] language[julia] %}}``
+
+### Collapsible Code in IPython Notebooks
+
+The plugin also enables collapsible code input boxes. For this to work
+you first need to copy the file ``pelicanhtml_3.tpl`` (for IPython
+3.x, ``pelicanhtml_2.tpl`` (for IPython 2.x)...) to the top level of your
+Pelican blog. Notebook input cells containing the comment line ``#
+&lt;!-- collapse=True --&gt;`` will be collapsed when the html page is
+loaded and can be expanded by clicking on them. Cells containing the
+comment line ``# &lt;!-- collapse=False --&gt;`` will be open on load but
+can be collapsed by clicking on their header. Cells without collapse
+comments are rendered as standard code input cells.
+
+## Testing
+
+To test the plugin in multiple environments we use [tox](http://tox.readthedocs.org/en/latest/), to run the entire test suite, just type:
+
+
+wzxhzdk:0
+
+
+[IPython]: http://ipython.org/
+&lt;/pre&gt;</summary><category term="week6"></category><category term="github"></category></entry><entry><title>[Week 6] 課程內容整理</title><link href="./week6.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-30:./week6.html</id><summary type="html">&lt;p&gt;[Week 6] 第六週課程內容概要整理。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;利用onshape完成四連桿和八連桿的繪製和組裝&lt;/li&gt;
+&lt;li&gt;將畫好的零件利用v-rep做連桿動作模擬&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;hr/&gt;
+
+&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;影片及圖文後製處理中...預計上傳時間 2017/04/22..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="week6"></category></entry><entry><title>[Week 5] 課程內容整理</title><link href="./week5.html" rel="alternate"></link><published>2017-03-23T11:00:00+08:00</published><updated>2017-03-23T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-23:./week5.html</id><summary type="html">&lt;p&gt;[Week 5] 第五週課程內容概要整理。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;利用v-rep設定單連桿運動&lt;/li&gt;
 &lt;/ol&gt;
 
 
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;內容待整理...預計上傳時間 2017/04/09..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w5"></category></entry><entry><title>[Week 4] 課程內容整理</title><link href="./week4.html" rel="alternate"></link><published>2017-03-16T11:00:00+08:00</published><updated>2017-03-16T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-16:./week4.html</id><summary type="html">&lt;p&gt;[Week 4] 第四週課程內容概要整理。&lt;/p&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;影片及圖文後製處理中...預計上傳時間 2017/04/22..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="week5"></category></entry><entry><title>[Week 4] 課程內容整理</title><link href="./week4.html" rel="alternate"></link><published>2017-03-16T11:00:00+08:00</published><updated>2017-03-16T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-16:./week4.html</id><summary type="html">&lt;p&gt;[Week 4] 第四週課程內容概要整理。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;說明安裝或使用 Hyperworks 套件過程與心得&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;平面四連桿機構的運動路徑方程式推導與網際 2D 繪圖,  2D 繪圖以 Brython 在各組網誌中完成&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;在 https://mde2a2.kmol.info 主機上建立 cdbg1(完成後可直接連結至 cdbg1 倉儲, 交由組長管理)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;使用solvespace繪畫one_link&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;平面四連桿機構的運動路徑方程式推導與網際 2D 繪圖,  2D 繪圖以 Brython 在各組網誌中完成&lt;/li&gt;
+&lt;li&gt;使用solvespace繪畫one_link，導入V-REP&lt;/li&gt;
 &lt;/ol&gt;
 
 
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;內容待整理...預計上傳時間 2017/04/09..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w4"></category></entry><entry><title>[Week 3] 課程內容整理</title><link href="./week3.html" rel="alternate"></link><published>2017-03-09T11:00:00+08:00</published><updated>2017-03-09T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-09:./week3.html</id><summary type="html">&lt;p&gt;[Week 3] 第三週課程內容概要整理。&lt;/p&gt;
-&lt;p&gt;1.各組派兩人翻譯影片
-2.利用solvespace組立及v-rep轉入
-3.利用onshape組立及v-rep轉入
-4.Solvespace 輸入三角形頂點運動軌跡&lt;/p&gt;
+&lt;hr/&gt;
+
+&lt;h3&gt;網際平面四連桿機構動態模擬&lt;/h3&gt;
+&lt;p&gt;&lt;hr/&gt;
+四連桿平面機構
+&lt;!-- 導入 Brython 標準程式庫 3.3.1 --&gt;
+&lt;script type="text/javascript" src="./../data/brython_dist.js"&gt;
+&lt;/script&gt;&lt;/p&gt;
+&lt;script type="text/javascript" src="./../data/Cango-8v05-min.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="./../data/Cango2D-7v04-min.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="./../data/CangoAnimation-4v01.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython 時, 設定 pythonpath 為 data/py --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下執行 Brython 程式 --&gt;
+
+&lt;canvas id="plotarea" width="600" height="600"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python"&gt;
+from browser import window
+
+cango = window.Cango2D.new
+shapedefs = window.shapeDefs
+obj2d = window.Obj2D.new
+group2d = window.Group2D.new
+cgo = cango("plotarea")
+
+x1, y1 = 40, 20
+cx1, cy1 = 90, 120
+x2, y2 = 120, 100
+cx2, cy2 = 130, 20
+cx3, cy3 = 150, 120
+x3, y3 = 180, 60
+
+def dragC1(mousePos):
+    global cx1, cy1
+    cx1 = mousePos.x
+    cy1 = mousePos.y
+    drawCurve()
+
+def dragC2(mousePos):
+    global cx2, cy2
+    cx2 = mousePos.x
+    cy2 = mousePos.y
+    drawCurve()
+
+def dragC3(mousePos):
+    global cx3, cy3
+    cx3 = mousePos.x
+    cy3 = mousePos.y
+    drawCurve()
+
+def drawCurve():
+    # curve change shape so it must be re-draw each time
+    # draw a quadratic bezier from x1,y2 to x2,y2
+    qbez = obj2d(['M', x1, y1, 'Q', cx1, cy1, x2, y2], "PATH",  {
+          "strokeColor":'blue'})
+    cbez = obj2d(['M', x2, y2, 'C', cx2, cy2, cx3, cy3, x3, y3], "PATH",  {
+          "strokeColor":'green'})
+    # show lines to control point
+    L1 = obj2d(['M', x1, y1, 'L', cx1, cy1, x2, y2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})  # semi-transparent gray
+    L2 = obj2d(['M', x2, y2, 'L', cx2, cy2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})
+    L3 = obj2d(['M', x3, y3, 'L', cx3, cy3], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})
+    #c1.transform.reset()
+    c1.transform.translate(cx1, cy1)
+    #c2.transform.reset()
+    c2.transform.translate(cx2, cy2)
+    #c3.transform.reset()
+    c3.transform.translate(cx3, cy3)
+    grp = group2d(qbez, cbez, L1, L2, L3, c1, c2, c3)
+    cgo.clearCanvas()
+    cgo.render(grp)
+
+cgo.clearCanvas("lightyellow")
+cgo.setWorldCoords(0, 0, 200)
+
+# draggable control points
+c1 = obj2d(shapedefs.circle(4), "SHAPE", {"fillColor":'red'})
+c1.enableDrag(None, dragC1, None)
+c2 = c1.dup()
+c2.enableDrag(None, dragC2, None)
+c3 = c1.dup()
+c3.enableDrag(None, dragC3, None)
+drawCurve();
+&lt;/script&gt;
+
+&lt;p&gt;平面機構繪圖:&lt;/p&gt;
+&lt;!-- 以下執行 Brython 程式 --&gt;
+
+&lt;canvas id="plotarea2" width="600" height="600"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python"&gt;
+from browser import window
+
+cango = window.Cango2D.new
+shapedefs = window.shapeDefs
+obj2d = window.Obj2D.new
+group2d = window.Group2D.new
+cgo = cango("plotarea2")
+
+x1, y1 = 40, 20
+cx1, cy1 = 90, 120
+x2, y2 = 120, 100
+cx2, cy2 = 130, 20
+cx3, cy3 = 150, 120
+x3, y3 = 180, 60
+
+def dragC1(mousePos):
+    global cx1, cy1
+    cx1 = mousePos.x
+    cy1 = mousePos.y
+    drawCurve()
+
+def dragC2(mousePos):
+    global cx2, cy2
+    cx2 = mousePos.x
+    cy2 = mousePos.y
+    drawCurve()
+
+def dragC3(mousePos):
+    global cx3, cy3
+    cx3 = mousePos.x
+    cy3 = mousePos.y
+    drawCurve()
+
+def dragX1(mousePos):
+    global x1, y1
+    x1 = mousePos.x
+    y1 = mousePos.y
+    drawCurve()
+
+def drawCurve():
+    # curve change shape so it must be re-draw each time
+    # draw a quadratic bezier from x1,y2 to x2,y2
+    qbez = obj2d(['M', x1, y1, 'Q', cx1, cy1, x2, y2], "PATH",  {
+          "strokeColor":'blue'})
+    cbez = obj2d(['M', x2, y2, 'C', cx2, cy2, cx3, cy3, x3, y3], "PATH",  {
+          "strokeColor":'green'})
+    # show lines to control point
+    '''
+    L1 = obj2d(['M', x1, y1, 'L', cx1, cy1, x2, y2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})  # semi-transparent gray
+    L2 = obj2d(['M', x2, y2, 'L', cx2, cy2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})
+    L3 = obj2d(['M', x3, y3, 'L', cx3, cy3], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})
+    '''
+    L1 = obj2d(['M', x1, y1, 'L', cx1, cy1], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "solided":[10]})  # semi-transparent gray
+    L2 = obj2d(['M', cx1, cy1, 'L', cx2, cy2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "solided":[10]})
+    L3 = obj2d(['M', cx2, cy2, 'L', cx3, cy3], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "solided":[10]})
+    #c1.transform.reset()
+    c1.transform.translate(cx1, cy1)
+    #c2.transform.reset()
+    c2.transform.translate(cx2, cy2)
+    #c3.transform.reset()
+    c3.transform.translate(cx3, cy3)
+    #mx1.transform.reset()
+    mx1.transform.translate(x1, y1)
+    #grp = group2d(qbez, cbez, L1, L2, L3, c1, c2, c3)
+    grp = group2d(L1, L2, L3, c1, c2, c3, mx1)
+    cgo.clearCanvas()
+    cgo.render(grp)
+
+cgo.clearCanvas("lightyellow")
+cgo.setWorldCoords(0, 0, 200)
+
+# draggable control points
+c1 = obj2d(shapedefs.circle(4), "SHAPE", {"fillColor":'red'})
+c1.enableDrag(None, dragC1, None)
+c2 = c1.dup()
+c2.enableDrag(None, dragC2, None)
+c3 = c1.dup()
+c3.enableDrag(None, dragC3, None)
+mx1 = c1.dup()
+mx1.enableDrag(None, dragX1, None)
+drawCurve();
+&lt;/script&gt;
+
+&lt;p&gt;機械手臂動態模擬:&lt;/p&gt;
+&lt;canvas id='robot' width='800' height='400'&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python"&gt;
+from browser import window
+
+cango2d = window.Cango2D.new
+shapedefs = window.shapeDefs
+obj2d = window.Obj2D.new
+tweener = window.Tweener.new
+
+cgo = cango2d("robot")
+# 清除畫面
+cgo.clearCanvas("lightyellow")
+cgo.setWorldCoords(-50, -50, 300)
+
+# 加上基軸與第一桿
+# 畫筆移到 -20, -10, 畫直線到 -10,-10 以及 -10,0 
+standData = ['M', -20,-10, 'L', -10,-10, -10,0, 'A', 10,10,0,0,0,10,0, 'L',10,-10, 20,-10, 20,-40, -20,-40,'z']
+stand = obj2d(standData, "SHAPE", {
+        "fillColor":'darkgray',
+        "border": True,
+        "strokeColor": "#222222" })
+axle0 = obj2d(shapedefs.circle(10), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222" })
+armGrp = cgo.createGroup2D(stand, axle0)
+
+segData = ['M',0,-8, 'A',8,8,0,0,0,0,8, 'L',50,8, 'A',8,8,0,0,0,50,-8, 'Z']
+seg1 = obj2d(segData, "SHAPE", {
+        "fillColor":'darkGray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": -1 })
+# 利用 zIndex 決定疊層的先後次序
+axle1 = obj2d(shapedefs.circle(8), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": 1 })
+axle1.translate(50, 0)
+seg1Grp = cgo.createGroup2D(seg1, axle1)
+armGrp.addObj(seg1Grp)
+
+# 加上第二軸
+seg2 = obj2d(segData, "SHAPE", {
+        "fillColor":'darkGray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": -1 })
+axle2 = obj2d(shapedefs.circle(8), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": 1 })
+axle2.translate(50, 0)
+seg2Grp = cgo.createGroup2D(seg2, axle2)
+cgo.render(seg2Grp)
+# 請注意 seg2Grp 加上 seg1Grp 物件上
+seg1Grp.addObj(seg2Grp)
+
+seg3 = obj2d(segData, "SHAPE", {
+        'fillColor':'darkGray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': -1 })
+axle3 = obj2d(shapedefs.circle(6), "SHAPE", {
+        'fillColor':'gray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': 1 })
+axle3.translate(50, 0)
+seg3Grp = cgo.createGroup2D(seg3, axle3)
+seg2Grp.addObj(seg3Grp)
+
+seg4Data = ['M',0,-6, 'A',6,6,0,0,0,0,6, 'L',40,6, 40,12, 50,12, 50,-12, 40,-12, 40,-6, 'Z']
+seg4 = obj2d(seg4Data, "SHAPE", {
+        'fillColor':'darkGray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': -1 })
+seg3Grp.addObj(seg4)
+
+# setup animation
+animData = {'s1': [0, 80, 45, 0],
+                  's2': [0, -60, -60, 0],
+                  's3': [0, -90, 0, 90, 0],
+                  's4': [0, 30, -90, 0]}
+
+armTwnr = tweener(0, 3500, 'loop')
+
+def initArm(opts):
+    seg2Grp.transform.translate(50,0)
+    seg3Grp.transform.translate(50,0)
+    seg4.transform.translate(50,0)
 
 
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;內容待整理...預計上傳時間 2017/04/09..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w3"></category></entry><entry><title>[Week 2] 課程內容整理</title><link href="./week2.html" rel="alternate"></link><published>2017-03-02T11:00:00+08:00</published><updated>2017-03-02T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-02:./week2.html</id><summary type="html">&lt;p&gt;[Week 2] 第二週課程內容概要整理。&lt;/p&gt;
-&lt;p&gt;1.更改stunnel設定檔ip位址
-2.利用solvespace組立及v-rep應用&lt;/p&gt;
+def armPathFn(time, opts):
+    seg1Rot = armTwnr.getVal(time, opts.s1)
+    seg2Rot = armTwnr.getVal(time, opts.s2)
+    seg3Rot = armTwnr.getVal(time, opts.s3)
+    seg4Rot = armTwnr.getVal(time, opts.s4)
+
+    seg1Grp.transform.rotate(seg1Rot)
+    seg2Grp.transform.rotate(seg2Rot)
+    seg2Grp.transform.translate(50,0)
+    seg3Grp.transform.rotate(seg3Rot)
+    seg3Grp.transform.translate(50,0)
+    seg4.transform.rotate(seg4Rot)
+    seg4.transform.translate(50,0)
+
+cgo.animate(armGrp, initArm, armPathFn, animData)
+cgo.playAnimation()
+&lt;/script&gt;
+
+&lt;h3&gt;使用solvespace繪畫one_link&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/1Yj3_W-fL_s?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; base_tutorial&lt;/button&gt;
+&lt;button onClick="lity('https://www.youtube.com/embed/pWsOOYTmiSg?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; link_tutorial&lt;/button&gt;
+&lt;button onClick="lity('https://www.youtube.com/embed/daGmZquHdo8?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; shaft_tutorial&lt;/button&gt;
+&lt;button onClick="lity('https://www.youtube.com/embed/JM7bHWkYEww?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 組裝_tutorial&lt;/button&gt;
+&lt;button onClick="lity('https://www.youtube.com/embed/67DtQEJ8HW4?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; V-REP模擬&lt;/button&gt;&lt;/p&gt;
+&lt;h3&gt;solvespace 零件檔領取&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w4/solve/base.slvs"&gt;base.slvs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w4/solve/link.slvs"&gt;link.slvs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w4/solve/shaft.slvs"&gt;shaft.slvs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w4/solve/all.slvs"&gt;組立檔&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="week4"></category></entry><entry><title>[Week 3] 課程內容整理</title><link href="./week3.html" rel="alternate"></link><published>2017-03-09T11:00:00+08:00</published><updated>2017-03-09T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-09:./week3.html</id><summary type="html">&lt;p&gt;[Week 3] 第三週課程內容概要整理。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;翻譯&lt;button onClick="lity('https://40423117.github.io/2017springcd_hw/blog/week3_1.html')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Hyperworker1&lt;/button&gt;、&lt;button onClick="lity('https://40423117.github.io/2017springcd_hw/blog/week3_2.html')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Hyperworker3&lt;/button&gt;&lt;/li&gt;
+&lt;li&gt;利用solvespace組立及v-rep轉入&lt;/li&gt;
+&lt;li&gt;Solvespace 輸入三角形頂點運動軌跡&lt;/li&gt;
+&lt;/ol&gt;
 
 
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;內容待整理...預計上傳時間 2017/04/09..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w2"></category></entry><entry><title>[Week 1] 課程內容整理</title><link href="./week1.html" rel="alternate"></link><published>2017-02-23T11:00:00+08:00</published><updated>2017-02-23T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-02-23:./week1.html</id><summary type="html">&lt;p&gt;[Week 1] 第一週課程內容概要整理。&lt;/p&gt;
-&lt;p&gt;1.利用solvespace及onshape組裝四連桿機構&lt;/p&gt;
+&lt;hr/&gt;
+
+&lt;h3&gt;solvespace 影片教學&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/1MNClElz85g?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; link_30影片&lt;/button&gt;
+&lt;button onClick="lity('https://www.youtube.com/embed/ZRmordUEods?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; link_50影片&lt;/button&gt;
+&lt;button onClick="lity('https://www.youtube.com/embed/GxHJHj9Syfw?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; link_60影片&lt;/button&gt;
+&lt;button onClick="lity('https://www.youtube.com/embed/Aq9CxzepNR0?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 組立影片&lt;/button&gt;&lt;/p&gt;
+&lt;h3&gt;solvespace 零件檔領取&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/link_30.slvs"&gt;link_30.slvs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/link_50.slvs"&gt;link_50.slvs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/link_60.slvs"&gt;link_60.slvs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/fourbar345.slvs"&gt;組立檔&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;利用solvespace組立及v-rep轉入&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/https://youtu.be/8NDm0-W1Dqk?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; SolveSpace組立及v-rep轉入_Tutorial&lt;/button&gt;&lt;/p&gt;
+&lt;h3&gt;三角形運動軌跡輸出CSV至EXCEL查看&lt;/h3&gt;
+&lt;p&gt;&lt;hr/&gt;
+&lt;button onClick="lity('https://www.youtube.com/embed/5vKZ3MwfgM8?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; SolveSpace_W3_Tutorial&lt;/button&gt;&lt;button onClick="lity('https://www.youtube.com/embed/L__eySIuBTk?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 105_1_CSVTOEXCEL_Tutorial&lt;/button&gt;&lt;button onClick="lity('https://www.youtube.com/embed/-eltLhLblRM?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 105_2_CSVTOEXCEL_Tutorial&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;先在link_50零件中，於兩個圓心上畫出一個相交的兩條線
+&lt;img src="./../data/w3/w3_1.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;尺寸各為50
+&lt;img src="./../data/w3/w3_2.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;接著先點選三角形之頂點，接著點選Analyze，再點選Trace Point
+&lt;img src="./../data/w3/w3_3.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;任意點選一個點，讓軌跡運動
+&lt;img src="./../data/w3/w3_4.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;接著再點選Analyze，點選 Stop Tracing...
+&lt;img src="./../data/w3/w3_5.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;請存成 CSV格式
+&lt;img src="./../data/w3/w3_6.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;於EXCEL上，以點建立圖表
+&lt;img src="./../data/w3/w3_99.JPG" height="450px"&gt;&lt;/p&gt;</summary><category term="week3"></category></entry><entry><title>[Hyperworker3] 翻譯</title><link href="./week3_2.html" rel="alternate"></link><published>2017-03-09T10:02:00+08:00</published><updated>2017-03-09T10:02:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-09:./week3_2.html</id><summary type="html">&lt;p&gt;[Week 3] 第三週作業之一&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Hyperworker3 翻譯。&lt;/li&gt;
+&lt;/ol&gt;
 
 
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;內容待整理...預計上傳時間 2017/04/09..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w1"></category></entry></feed>
+&lt;hr/&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/207229503" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;In OptiStruct, one of our focus areas is nonlinear large deformation analysis.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;在OptiStruct中，我們的一個重點領域是非線性大變形分析。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And in 2017 we added nonlinear transient analysis.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;在2017年，我們添加了非線性瞬態分析&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The main purpose was to couple AcuSolve to do fluid-structure interaction.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;主要目的是使AcuSolve與流體 - 結構相互作用。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;But also one development that happened during the last year came out piece-wise in different point releases and is now really mature.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;但是，在過去一年中發生的一個發展，在不同的積分發布中分段出現，現在已經成熟。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And 2017 is our contact analysis, so we have different ways of defining sliding contact and things like that.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2017年是我們的接觸分析，所以我們有不同的方式來定義滑動接觸和類似的東西。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The fast contact analysis for small deformation is blazing fast.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;對小變形的快速接觸分析是快速的。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;It’s a very simple idea that makes the solution very fast, and that adds OptiStruct as really a leading nonlinear structural solver.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;這是一個非常簡單的想法，使解決方案非常快，並將OptiStruct添加為真正的領先的非線性結構求解器。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Our two major optimization packages are OptiStruct for structural optimization, there’s a huge multidisciplinary component, too.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;我們的兩個主要優化包是用於結構優化的OptiStruct，還有一個巨大的多學科組件。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And Hyperstudy for general optimization wrap around multidisciplinary optimization.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;並且Hyperstudy對一般優化包圍多學科優化。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;[For] OptiStruct we spend a lot of time continuing the development for optimization and we have now Failsafe topology optimization.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;[For] OptiStruct我們花了很多時間繼續開發優化，我們現在已經失效的拓撲優化。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;We kept on working on the manufacturing solution to do lattice optimization.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;我們一直在製造解決方案上做晶格優化。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For the multi-model optimization it’s really maturing and we find more and more applications where that helps.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;對於多模型優化，它真的成熟，我們發現越來越多的應用程序，這有助於。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Our goal is actually to include all the physics in the optimizations.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;我們的目標實際上是在優化中包括所有的物理。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;So the team right now is working on optimization for nonlinear problems and so on.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;所以團隊現在正在努力優化非線性問題等等。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And then Hyperstudy, on the other hand, is going through a new transformation of the user the user experience was changed a few years back, but we are now trying to make it much more easy to use by hiding a lot of the advanced functionalities to the regular users.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;另一方面，Hyperstudy正在經歷用戶體驗在幾年前改變的用戶體驗的一個新的轉變，但是我們現在試圖通過隱藏許多高級功能來使它更容易使用 普通用戶。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And depending on the level of expertise or depending on the job that the user has to do, they can customize the user experience.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;並且取決於專業水平或者根據用戶必須做的工作，他們可以定制用戶體驗。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;We adds a few new connections.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;我們添加了一些新的連接。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;One of them is a Flux connection.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;其中一個是Flux連接。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Flux is an electromagnetics code that we just acquired for low frequency electromagnetics, so we can all take a Flux database and put it into Hyperstudy into the study with that.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Flux是我們剛剛為低頻電磁學採集的電磁學代碼，所以我們可以採用一個Flux數據庫，並把它放入Hyperstudy進行研究。&lt;/code&gt;&lt;/p&gt;</summary><category term="week3"></category></entry><entry><title>[Hyperworker1] 翻譯</title><link href="./week3_1.html" rel="alternate"></link><published>2017-03-09T10:00:00+08:00</published><updated>2017-03-09T10:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-09:./week3_1.html</id><summary type="html">&lt;p&gt;[Week 3] 第三週作業之一&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Hyperworker1 翻譯。&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;hr/&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/207229473" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;In the 2017 release, we followed our vision and implement a lot more features, delivering more technology for your HyperWorks units investment.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;在2017年版本中，我們遵循了我們的願景並實施了更多功能，為您的HyperWorks單位投資提供更多技術。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;In our continuous development, we focused, as# always, on simulation-driven innovation, adding more optimization technology.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;在我們的不斷發展中，我們一如既往地專注於模擬驅動的創新，增加更多的優化技術。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;We added more physics simulation to the software, and we improved our parallel performance on high performance computers.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;我們增加了許多的物理的模擬，我們提高了高性能電腦的平行性能。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;OptiStruct, which is our implicit code, adds a lot of development in the nonlinear implicit area, but also in the optimization technology.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;OptiStruct是我們的隱式代碼，在非線性隱含區域中，也在優化技術中添加了很多開發。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;RADIOSS, we see a lot of development in new materials and material modeling.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;RADIOSS，我們看到很多新材料和材料建模的發展。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You probably know that we did the acquisition of MDS a couple of years back, and we have now MDS integrated with RSDIOSS, and are doing application there.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;您可能知道我們在幾年前就完成了MDS的收購，現在我們已經將MDS與RSDIOSS整合，並開始應用。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;MotionSolve is based on a very unique formulation that this different from other multibody dynamics code, and the formulation lends itself very well to optimization implementation.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;MoMotionSolvetionSolve是根據一個非常獨特的公式，這不同於其他多體動力學代碼，MotionSolve公式本身非常好地優化實施。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;So the team has worked really hard on contact formulations, got very robust.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;因此團隊對於接觸公式非常努力，獲得了非常強大的。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;It's very cool which kind of problems can solve with contact modelling.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;這類型的問題可以解決與接觸建模這是非常酷的。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;So this is along the structural solvers side on AcuSolve side we actually added the complete portfolio of turbulence and transition models that really helps us to solve problems in wind turbines and automotive industry much more accurately, and it’s a big asset of physics simulation.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;因此，這是沿著AcuSolve一側的結構解算方面，我們實際添加了完整的湍流和轉換模型組合，真正幫助我們更準確地解決風力渦輪機和汽車行業的問題，這是物理仿真的一個重要的資產。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And then our electromagnetic suite has actually grown last year through the acquisition of Flux, from the CEDRAT company.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;然後，我們的電磁套件實際上是去年通過從CEDRAT公司收購Flux而實現的。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;As well as the acquisition of WinProp, from AWE.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;以及從AWE收購WinProp。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;So now we have a complete frequency spectrum from low frequency electromagnetics the high frequency electromagnetics which is powered by FEKO.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;所以現在我們有一個完整的頻譜從低頻電磁學的高頻電磁學由FEKO供電。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;We now have a complete portfolio of physics modeling available for our customers, and it’s all linked through optimization.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;我們現在有一個完整的物理建模組合可用於我們的客戶，它都通過優化鏈接。&lt;/code&gt;&lt;/p&gt;</summary><category term="week3"></category></entry><entry><title>[Week 2] 課程內容整理</title><link href="./week2.html" rel="alternate"></link><published>2017-03-02T11:00:00+08:00</published><updated>2017-03-02T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-02:./week2.html</id><summary type="html">&lt;p&gt;[Week 2] 第二週課程內容概要整理。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;修改Start.bat，讓程式自動更改stunnel設定檔ip位址&lt;/li&gt;
+&lt;li&gt;利用solvespace畫出四連桿機構組立&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;hr/&gt;
+
+&lt;h3&gt;修改Start.bat，讓程式自動更改stunnel設定檔ip位址&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font color="#FF0000"&gt;修改前(備份)：&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+REM tiny2017 主要針對初學 Python3 與 C 學員所建立
+REM 近端使用 fossil 管理資料版本, 並且定時轉為 git 格式後上傳到 github
+@echo off
+REM 設定 y 硬碟代號與 data 目錄對應
+set Disk=y
+subst %Disk%: "data"
+REM 設定 leo 相關對應 Home 位置
+set HomePath=%Disk%:\home
+set HomeDrive=%Disk%:\home
+set Home=%Disk%:\home
+REM 將系統 Python 程式的 io 設為 utf-8
+set PYTHONIOENCODING="utf-8"
+REM 將後續的指令執行, 以 %Disk% 為主
+%Disk%:
+REM 設定 PYTHONPATH
+set PYTHONPATH=%Disk%:\python-3.5.3-embed-amd64
+REM 設定 Leo 所用的編輯器
+set LEO_EDITOR=%Disk%:\wscite\SciTE.exe
+REM for fossil https 連線設定
+set HTTPS=on
+REM 指令搜尋路徑設定
+set path1=%PATH%;%Disk%:;%Disk%:\python-3.5.3-embed-amd64;%Disk%:\git\bin;%Disk%:\stunnel\bin;%Disk%:\sqlite-tools;%Disk%:\python-3.5.3-embed-amd64\Scripts;%Disk%:\portablegit\bin;
+path=%path1%;
+start /MIN %Disk%:\wscite\SciTE.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+REM 啟動 Leo 編輯器
+REM %Disk%:\python-3.5.3-embed-amd64\python.exe %Disk%:\launchLeo.py
+REM 啟動 stunnel
+start /MIN fossil.exe server -P 127.0.0.1:8080 %Disk%:\tmp\fossil_repo
+start /MIN stunnel.exe
+Exit
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font color="#FF0000"&gt;修改後：&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+REM tiny2017 主要針對初學 Python3 與 C 學員所建立
+REM 近端使用 fossil 管理資料版本, 並且定時轉為 git 格式後上傳到 github
+@echo off
+REM 設定 y 硬碟代號與 data 目錄對應
+set Disk=y
+subst %Disk%: "data"
+REM 設定 leo 相關對應 Home 位置
+set HomePath=%Disk%:\home
+set HomeDrive=%Disk%:\home
+set Home=%Disk%:\home
+REM 將系統 Python 程式的 io 設為 utf-8
+set PYTHONIOENCODING="utf-8"
+REM 將後續的指令執行, 以 %Disk% 為主
+%Disk%:
+REM 設定 PYTHONPATH
+set PYTHONPATH=%Disk%:\python-3.5.3-embed-amd64
+REM 設定 Leo 所用的編輯器
+set LEO_EDITOR=%Disk%:\wscite\SciTE.exe
+REM for fossil https 連線設定
+set HTTPS=on
+REM 指令搜尋路徑設定
+set path1=%PATH%;%Disk%:;%Disk%:\python-3.5.3-embed-amd64;%Disk%:\git\bin;%Disk%:\stunnel\bin;%Disk%:\sqlite-tools;%Disk%:\python-3.5.3-embed-amd64\Scripts;%Disk%:\portablegit\bin;
+set path2=c:\Windows\Microsoft.NET\Framework\v3.5;%Disk%:\python-3.5.3-embed-amd64\Lib\site-packages;
+set path3="C:\Program Files (x86)\Google\Chrome\Application"
+path=%path%;%path1%;%path2%;%path3%
+start /MIN %Disk%:\wscite\SciTE.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+REM 啟動 Leo 編輯器
+REM %Disk%:\Miniconda3\python.exe %Disk%:\apps\launchLeo.py
+REM 啟動 stunnel
+start /MIN fossil.exe server -P 127.0.0.1:8080 %Disk%:\tmp\fossil_repo\vcp.fossil
+REM 取得電腦 IP, 然後設定 %Disk%:/stunnel/config/stunnel.conf
+for /f "delims=[] tokens=2" %%a in ('ping -4 -n 1 %ComputerName% ^| findstr [') do set NetworkIP=%%a
+REM echo Network IP: %NetworkIP%
+REM Saved in %Disk%:\stunnel\config\stunnel.conf
+@echo off
+REM 建立 stunnel.conf
+@echo [https] &gt; %Disk%:\stunnel\config\stunnel.conf
+REM 附加資料
+@echo accept = %NetworkIP%:443 &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+@echo connect = 127.0.0.1:8080 &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+@echo TIMEOUTclose = 0 &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+@echo cert = %Disk%:\stunnel\config\localhost.crt &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+@echo key = %Disk%:\stunnel\config\localhost.key &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+REM 啟動 stunnel
+start /MIN stunnel.exe
+REM set proxy
+REG IMPORT setup_proxy.reg
+REM 以 chrome 連線到 https://%NetworkIP%:443
+REM chrome  --proxy-server="140.130.17.17:3128" --proxy-bypass-list="192.168.1.*;*.edu.tw" https://%NetworkIP%
+chrome https://%NetworkIP% http://mde.tw https://mde2a1.kmol.info https://mde2a2.kmol.info https://vimeo.com/user24079973 http://mde.tw/2017springcd/blog/ http://mde.tw/2017springwcm/blog/ http://mde.tw/2017springvcp/blog/ http://service.mde.tw
+Exit
+&lt;/pre&gt;
+
+&lt;h3&gt;solvespace 影片教學&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/1MNClElz85g?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; link_30影片&lt;/button&gt;
+&lt;button onClick="lity('https://www.youtube.com/embed/ZRmordUEods?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; link_50影片&lt;/button&gt;
+&lt;button onClick="lity('https://www.youtube.com/embed/GxHJHj9Syfw?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; link_60影片&lt;/button&gt;
+&lt;button onClick="lity('https://www.youtube.com/embed/Aq9CxzepNR0?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 組立影片&lt;/button&gt;&lt;/p&gt;
+&lt;h3&gt;solvespace 零件檔領取&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/link_30.slvs"&gt;link_30.slvs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/link_50.slvs"&gt;link_50.slvs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/link_60.slvs"&gt;link_60.slvs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/fourbar345.slvs"&gt;組立檔&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="week2"></category></entry><entry><title>[Github] 默認倉儲設定</title><link href="./week1_1.html" rel="alternate"></link><published>2017-02-23T11:02:00+08:00</published><updated>2017-02-23T11:02:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-02-23:./week1_1.html</id><summary type="html">&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;設定Github之默認倉儲&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;
+
+
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/v3405VKTXoQ?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt;教學影片&lt;/button&gt;&lt;/p&gt;
+&lt;h3&gt;[Github] 默認倉儲設定&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;先進入自己的倉儲後，點選 Setting
+&lt;img src="./../data/w1/1.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;進入 Setting後，點選 Branch
+&lt;img src="./../data/w1/2.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;在Default branch下設定自己想默認的倉儲，這邊預設為 &lt;code&gt;gh-pages&lt;/code&gt;
+&lt;img src="./../data/w1/3.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;點選 Update
+&lt;img src="./../data/w1/4.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;點選 I understand,update the default branch.
+&lt;img src="./../data/w1/5.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;回到自己的倉儲後，默認倉儲就是剛剛設定的倉儲
+&lt;img src="./../data/w1/6.JPG" height="450px"&gt;&lt;/p&gt;</summary><category term="week1"></category><category term="github"></category></entry><entry><title>[Week 1] 課程內容整理</title><link href="./week1.html" rel="alternate"></link><published>2017-02-23T11:00:00+08:00</published><updated>2017-02-23T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-02-23:./week1.html</id><summary type="html">&lt;p&gt;[Week 1] 第一週課程內容概要整理。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;環境建立，可攜系統下載安裝&lt;/li&gt;
+&lt;li&gt;複習 &lt;a href="https://40423117.github.io/2016fallcadp_hw/blog/LazyPackage2016.html"&gt;上學期&lt;/a&gt; 的內容&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;hr/&gt;
+
+&lt;h3&gt;可攜系統安裝&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;下載 &lt;a href="http://service.mde.tw/public/tiny2017_1GB.7z"&gt;可攜程式系統(1GB)&lt;/a&gt; &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;start.bat 啟動, stop.bat 關閉&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;建議存在隨身硬碟中使用&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;登記GITHUB、ONSHAPE 帳號&lt;small&gt;(利用學校信箱註冊)&lt;/small&gt;&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/"&gt;Github&lt;/a&gt; - 已註冊&lt;a href="https://github.com/40423117"&gt;40423117&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.onshape.com"&gt;OnShape&lt;/a&gt; - 已註冊40423117&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;建立個人作業倉儲&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;ol&gt;
+&lt;li&gt;先登入 &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Create a new &lt;a href="https://github.com/new"&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Repository name : &lt;code&gt;2017springcd_hw&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;打勾 [Initialize this repository with a README]&lt;/li&gt;
+&lt;li&gt;按下 Create  repository&lt;/li&gt;
+&lt;li&gt;進入 Setting&lt;/li&gt;
+&lt;li&gt;Set Default branch : gh-pages&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;錄影工具 (ShareX)&lt;/h3&gt;
+&lt;p&gt;&lt;hr/&gt;
+去聲音指令:&lt;br /&gt;
+&lt;code&gt;ffmpeg.exe -i 檔名 -c copy -an out.mp4&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;字幕指令:&lt;br /&gt;
+&lt;code&gt;ffmpeg.exe -i out.mp4 -vf subtitles=in.srt out2.mp4&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Git Code&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;安裝pelican指令:
+&lt;code&gt;pip install pelican&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;新增submodule:
+&lt;code&gt;git submodule add -b gh-pages 倉儲網址&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;刪除指令:
+&lt;code&gt;git rm -rf&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Clone時連submodule一起下載:
+&lt;code&gt;git clone --recursive 倉儲網址&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Clone完發現submodule是空的時候,用指令抓:
+&lt;code&gt;git submodule update --init --recursive&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;子目錄下的子模組一次全部更新(Pull)：
+&lt;code&gt;git submodule foreach --recursive git pull origin gh-pages&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Proxy Setting&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;至區域網路(LAN)設定中，設定Proxy伺服器&lt;/p&gt;
+&lt;p&gt;位址：&lt;code&gt;proxy.mde.tw&lt;/code&gt;
+連接埠：&lt;code&gt;3128&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Git Proxy Setting&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;學校代理主機，在命令提示字元[ cmd.exe ]輸入指令: &lt;/p&gt;
+&lt;p&gt;[http]
+&lt;code&gt;git config --global http.proxy http://proxy.mde.tw:3128 &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;[https]
+&lt;code&gt;git config --global https.proxy http://proxy.mde.tw:3128 &lt;/code&gt;&lt;/p&gt;</summary><category term="week1"></category></entry></feed>

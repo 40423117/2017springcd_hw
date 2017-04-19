@@ -13,18 +13,17 @@
 <link rel="canonical" href="./week2.html">
 
         <meta name="author" content="40423117" />
-        <meta name="keywords" content="brython,w2" />
-        <meta name="description" content="[Week 2] 第二週課程內容概要整理。 1.更改stunnel設定檔ip位址 2.利用solvespace組立及v-rep應用" />
+        <meta name="keywords" content="week2" />
+        <meta name="description" content="[Week 2] 第二週課程內容概要整理。 修改Start.bat，讓程式自動更改stunnel設定檔ip位址 利用solvespace畫出四連桿機構組立" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="[Week 2] 課程內容整理"/>
         <meta property="og:url" content="./week2.html"/>
-        <meta property="og:description" content="[Week 2] 第二週課程內容概要整理。 1.更改stunnel設定檔ip位址 2.利用solvespace組立及v-rep應用"/>
+        <meta property="og:description" content="[Week 2] 第二週課程內容概要整理。 修改Start.bat，讓程式自動更改stunnel設定檔ip位址 利用solvespace畫出四連桿機構組立"/>
         <meta property="article:published_time" content="2017-03-02" />
             <meta property="article:section" content="Course" />
-            <meta property="article:tag" content="brython" />
-            <meta property="article:tag" content="w2" />
+            <meta property="article:tag" content="week2" />
             <meta property="article:author" content="40423117" />
 
 
@@ -153,18 +152,141 @@
 
 
 <span class="label label-default">Tags</span>
-	<a href="./tag/brython.html">brython</a>
-        /
-	<a href="./tag/w2.html">w2</a>
+	<a href="./tag/week2.html">week2</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
                 <p>[Week 2] 第二週課程內容概要整理。</p>
-<p>1.更改stunnel設定檔ip位址
-2.利用solvespace組立及v-rep應用</p>
+<ol>
+<li>修改Start.bat，讓程式自動更改stunnel設定檔ip位址</li>
+<li>利用solvespace畫出四連桿機構組立</li>
+</ol>
 
 
-<p>[<b><font color="#FF0000">內容待整理...預計上傳時間 2017/04/09..</font></b>]</p>
+<hr/>
+
+<h3>修改Start.bat，讓程式自動更改stunnel設定檔ip位址</h3>
+<hr/>
+
+<p><b><font color="#FF0000">修改前(備份)：</font></b></p>
+<pre class="brush: python">
+REM tiny2017 主要針對初學 Python3 與 C 學員所建立
+REM 近端使用 fossil 管理資料版本, 並且定時轉為 git 格式後上傳到 github
+@echo off
+REM 設定 y 硬碟代號與 data 目錄對應
+set Disk=y
+subst %Disk%: "data"
+REM 設定 leo 相關對應 Home 位置
+set HomePath=%Disk%:\home
+set HomeDrive=%Disk%:\home
+set Home=%Disk%:\home
+REM 將系統 Python 程式的 io 設為 utf-8
+set PYTHONIOENCODING="utf-8"
+REM 將後續的指令執行, 以 %Disk% 為主
+%Disk%:
+REM 設定 PYTHONPATH
+set PYTHONPATH=%Disk%:\python-3.5.3-embed-amd64
+REM 設定 Leo 所用的編輯器
+set LEO_EDITOR=%Disk%:\wscite\SciTE.exe
+REM for fossil https 連線設定
+set HTTPS=on
+REM 指令搜尋路徑設定
+set path1=%PATH%;%Disk%:;%Disk%:\python-3.5.3-embed-amd64;%Disk%:\git\bin;%Disk%:\stunnel\bin;%Disk%:\sqlite-tools;%Disk%:\python-3.5.3-embed-amd64\Scripts;%Disk%:\portablegit\bin;
+path=%path1%;
+start /MIN %Disk%:\wscite\SciTE.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+REM 啟動 Leo 編輯器
+REM %Disk%:\python-3.5.3-embed-amd64\python.exe %Disk%:\launchLeo.py
+REM 啟動 stunnel
+start /MIN fossil.exe server -P 127.0.0.1:8080 %Disk%:\tmp\fossil_repo
+start /MIN stunnel.exe
+Exit
+</pre>
+
+<p><b><font color="#FF0000">修改後：</font></b></p>
+<pre class="brush: python">
+REM tiny2017 主要針對初學 Python3 與 C 學員所建立
+REM 近端使用 fossil 管理資料版本, 並且定時轉為 git 格式後上傳到 github
+@echo off
+REM 設定 y 硬碟代號與 data 目錄對應
+set Disk=y
+subst %Disk%: "data"
+REM 設定 leo 相關對應 Home 位置
+set HomePath=%Disk%:\home
+set HomeDrive=%Disk%:\home
+set Home=%Disk%:\home
+REM 將系統 Python 程式的 io 設為 utf-8
+set PYTHONIOENCODING="utf-8"
+REM 將後續的指令執行, 以 %Disk% 為主
+%Disk%:
+REM 設定 PYTHONPATH
+set PYTHONPATH=%Disk%:\python-3.5.3-embed-amd64
+REM 設定 Leo 所用的編輯器
+set LEO_EDITOR=%Disk%:\wscite\SciTE.exe
+REM for fossil https 連線設定
+set HTTPS=on
+REM 指令搜尋路徑設定
+set path1=%PATH%;%Disk%:;%Disk%:\python-3.5.3-embed-amd64;%Disk%:\git\bin;%Disk%:\stunnel\bin;%Disk%:\sqlite-tools;%Disk%:\python-3.5.3-embed-amd64\Scripts;%Disk%:\portablegit\bin;
+set path2=c:\Windows\Microsoft.NET\Framework\v3.5;%Disk%:\python-3.5.3-embed-amd64\Lib\site-packages;
+set path3="C:\Program Files (x86)\Google\Chrome\Application"
+path=%path%;%path1%;%path2%;%path3%
+start /MIN %Disk%:\wscite\SciTE.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+REM 啟動 Leo 編輯器
+REM %Disk%:\Miniconda3\python.exe %Disk%:\apps\launchLeo.py
+REM 啟動 stunnel
+start /MIN fossil.exe server -P 127.0.0.1:8080 %Disk%:\tmp\fossil_repo\vcp.fossil
+REM 取得電腦 IP, 然後設定 %Disk%:/stunnel/config/stunnel.conf
+for /f "delims=[] tokens=2" %%a in ('ping -4 -n 1 %ComputerName% ^| findstr [') do set NetworkIP=%%a
+REM echo Network IP: %NetworkIP%
+REM Saved in %Disk%:\stunnel\config\stunnel.conf
+@echo off
+REM 建立 stunnel.conf
+@echo [https] > %Disk%:\stunnel\config\stunnel.conf
+REM 附加資料
+@echo accept = %NetworkIP%:443 >> %Disk%:\stunnel\config\stunnel.conf
+@echo connect = 127.0.0.1:8080 >> %Disk%:\stunnel\config\stunnel.conf
+@echo TIMEOUTclose = 0 >> %Disk%:\stunnel\config\stunnel.conf
+@echo cert = %Disk%:\stunnel\config\localhost.crt >> %Disk%:\stunnel\config\stunnel.conf
+@echo key = %Disk%:\stunnel\config\localhost.key >> %Disk%:\stunnel\config\stunnel.conf
+REM 啟動 stunnel
+start /MIN stunnel.exe
+REM set proxy
+REG IMPORT setup_proxy.reg
+REM 以 chrome 連線到 https://%NetworkIP%:443
+REM chrome  --proxy-server="140.130.17.17:3128" --proxy-bypass-list="192.168.1.*;*.edu.tw" https://%NetworkIP%
+chrome https://%NetworkIP% http://mde.tw https://mde2a1.kmol.info https://mde2a2.kmol.info https://vimeo.com/user24079973 http://mde.tw/2017springcd/blog/ http://mde.tw/2017springwcm/blog/ http://mde.tw/2017springvcp/blog/ http://service.mde.tw
+Exit
+</pre>
+
+<h3>solvespace 影片教學</h3>
+<hr/>
+
+<p><button onClick="lity('https://www.youtube.com/embed/1MNClElz85g?rel=0')"><span class="glyphicon glyphicon-facetime-video"></span> link_30影片</button>
+<button onClick="lity('https://www.youtube.com/embed/ZRmordUEods?rel=0')"><span class="glyphicon glyphicon-facetime-video"></span> link_50影片</button>
+<button onClick="lity('https://www.youtube.com/embed/GxHJHj9Syfw?rel=0')"><span class="glyphicon glyphicon-facetime-video"></span> link_60影片</button>
+<button onClick="lity('https://www.youtube.com/embed/Aq9CxzepNR0?rel=0')"><span class="glyphicon glyphicon-facetime-video"></span> 組立影片</button></p>
+<h3>solvespace 零件檔領取</h3>
+<hr/>
+
+<ul>
+<li>
+<p><a href="https://40423117.github.io/2017springcd_hw/data/w2/link_30.slvs">link_30.slvs</a></p>
+</li>
+<li>
+<p><a href="https://40423117.github.io/2017springcd_hw/data/w2/link_50.slvs">link_50.slvs</a></p>
+</li>
+<li>
+<p><a href="https://40423117.github.io/2017springcd_hw/data/w2/link_60.slvs">link_60.slvs</a></p>
+</li>
+<li>
+<p><a href="https://40423117.github.io/2017springcd_hw/data/w2/fourbar345.slvs">組立檔</a></p>
+</li>
+</ul>
             </div>
             <!-- /.entry-content -->
         </article>
@@ -180,6 +302,16 @@
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="./week9_1.html">
+                            [懶人包] 期中前要做的事
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./week6_1.html">
+                            [Github] Page build failure
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="./week6.html">
                             [Week 6] 課程內容整理
                         </a>
@@ -192,16 +324,6 @@
                     <li class="list-group-item">
                         <a href="./week4.html">
                             [Week 4] 課程內容整理
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./week3.html">
-                            [Week 3] 課程內容整理
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./week2.html">
-                            [Week 2] 課程內容整理
                         </a>
                     </li>
                 </ul>
