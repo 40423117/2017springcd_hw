@@ -28,7 +28,7 @@
 &lt;li&gt;平面四連桿機構的運動路徑方程式推導與網際 2D 繪圖,  2D 繪圖以 Brython 在各組網誌中完成&lt;/li&gt;
 &lt;li&gt;使用solvespace繪畫one_link，導入V-REP&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;[Week 5] 、 [Week 6] &lt;b&gt;&lt;font color="#FF0000"&gt;影片及圖文後製處理中...預計上傳時間 2017/04/22..&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;[Week 5] 、 [Week 6] 、 [Week 7] &lt;b&gt;&lt;font color="#FF0000"&gt;影片及圖文後製處理中...預計上傳時間 2017/04/22..&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;h3&gt;影片頻道&lt;/h3&gt;
 &lt;hr/&gt;
 
@@ -46,7 +46,11 @@
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week6_1.html"&gt;解決倉儲推送時，出現之問題&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</summary><category term="week9"></category><category term="github"></category></entry><entry><title>[Github] Page build failure</title><link href="./week6_1.html" rel="alternate"></link><published>2017-03-30T11:05:00+08:00</published><updated>2017-03-30T11:05:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-30:./week6_1.html</id><summary type="html">&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;解決倉儲推送時，出現之問題&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;
+&lt;/ul&gt;</summary><category term="week9"></category><category term="github"></category></entry><entry><title>[Week 7] 課程內容整理</title><link href="./week7.html" rel="alternate"></link><published>2017-04-06T11:00:00+08:00</published><updated>2017-04-06T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-04-06:./week7.html</id><summary type="html">&lt;p&gt;[Week 7] 第七週課程內容概要整理。&lt;/p&gt;
+&lt;p&gt;1.將畫好的四連桿轉入v-rep模擬&lt;/p&gt;
+
+
+&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;圖片與影片正在後製處理中...預計上傳時間 2017/04/22..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="brython"></category><category term="w7"></category></entry><entry><title>[Github] Page build failure</title><link href="./week6_1.html" rel="alternate"></link><published>2017-03-30T11:05:00+08:00</published><updated>2017-03-30T11:05:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-30:./week6_1.html</id><summary type="html">&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;解決倉儲推送時，出現之問題&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;
 
 
 &lt;hr/&gt;
@@ -304,17 +308,49 @@ wzxhzdk:0
 &lt;/ol&gt;
 
 
-&lt;hr/&gt;
-
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;影片及圖文後製處理中...預計上傳時間 2017/04/22..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="week6"></category></entry><entry><title>[Week 5] 課程內容整理</title><link href="./week5.html" rel="alternate"></link><published>2017-03-23T11:00:00+08:00</published><updated>2017-03-23T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-23:./week5.html</id><summary type="html">&lt;p&gt;[Week 5] 第五週課程內容概要整理。&lt;/p&gt;
+&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
+&lt;hr/&gt;&lt;/p&gt;
+&lt;h1&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;影片及圖文後製處理中...預計上傳時間 2017/04/22..&lt;/font&gt;&lt;/b&gt;]&lt;/h1&gt;
+&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;圖片與影片正在後製處理中...預計上傳時間 2017/04/16..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;db9ffc260a6a183d1172bc8310ef44826c958360&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;</summary><category term="week6"></category></entry><entry><title>[Week 5] 課程內容整理</title><link href="./week5.html" rel="alternate"></link><published>2017-03-23T11:00:00+08:00</published><updated>2017-03-23T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-23:./week5.html</id><summary type="html">&lt;p&gt;[Week 5] 第五週課程內容概要整理。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;利用v-rep設定單連桿運動&lt;/li&gt;
 &lt;/ol&gt;
 
 
-&lt;hr/&gt;
-
-&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;影片及圖文後製處理中...預計上傳時間 2017/04/22..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="week5"></category></entry><entry><title>[Week 4] 課程內容整理</title><link href="./week4.html" rel="alternate"></link><published>2017-03-16T11:00:00+08:00</published><updated>2017-03-16T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-16:./week4.html</id><summary type="html">&lt;p&gt;[Week 4] 第四週課程內容概要整理。&lt;/p&gt;
+&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
+&lt;hr/&gt;&lt;/p&gt;
+&lt;h1&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;影片及圖文後製處理中...預計上傳時間 2017/04/22..&lt;/font&gt;&lt;/b&gt;]&lt;/h1&gt;
+&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;圖片與影片正在後製處理中...預計上傳時間 2017/04/16..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;db9ffc260a6a183d1172bc8310ef44826c958360&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;</summary><category term="week5"></category></entry><entry><title>[Week 4] 課程內容整理</title><link href="./week4.html" rel="alternate"></link><published>2017-03-16T11:00:00+08:00</published><updated>2017-03-16T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-16:./week4.html</id><summary type="html">&lt;p&gt;[Week 4] 第四週課程內容概要整理。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;平面四連桿機構的運動路徑方程式推導與網際 2D 繪圖,  2D 繪圖以 Brython 在各組網誌中完成&lt;/li&gt;
 &lt;li&gt;使用solvespace繪畫one_link，導入V-REP&lt;/li&gt;
@@ -662,7 +698,8 @@ cgo.playAnimation()
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w4/solve/all.slvs"&gt;組立檔&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</summary><category term="week4"></category></entry><entry><title>[Week 3] 課程內容整理</title><link href="./week3.html" rel="alternate"></link><published>2017-03-09T11:00:00+08:00</published><updated>2017-03-09T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-09:./week3.html</id><summary type="html">&lt;p&gt;[Week 3] 第三週課程內容概要整理。&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;圖片與影片正在後製處理中...預計上傳時間 2017/04/16..&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;</summary><category term="week4"></category></entry><entry><title>[Week 3] 課程內容整理</title><link href="./week3.html" rel="alternate"></link><published>2017-03-09T11:00:00+08:00</published><updated>2017-03-09T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-03-09:./week3.html</id><summary type="html">&lt;p&gt;[Week 3] 第三週課程內容概要整理。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;翻譯&lt;button onClick="lity('https://40423117.github.io/2017springcd_hw/blog/week3_1.html')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Hyperworker1&lt;/button&gt;、&lt;button onClick="lity('https://40423117.github.io/2017springcd_hw/blog/week3_2.html')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Hyperworker3&lt;/button&gt;&lt;/li&gt;
 &lt;li&gt;利用solvespace組立及v-rep轉入&lt;/li&gt;
@@ -807,8 +844,8 @@ cgo.playAnimation()
 &lt;/ol&gt;
 
 
-&lt;hr/&gt;
-
+&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
+&lt;hr/&gt;&lt;/p&gt;
 &lt;h3&gt;修改Start.bat，讓程式自動更改stunnel設定檔ip位址&lt;/h3&gt;
 &lt;hr/&gt;
 
