@@ -73,7 +73,7 @@
 &lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/link_60.slvs"&gt;link_60.slvs&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/fourbar345.slvs"&gt;組立檔&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/fourbar.slvs"&gt;組立檔&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;[Week4] solvespace 零件檔領取&lt;/h4&gt;
@@ -886,7 +886,7 @@ cgo.playAnimation()
 &lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/link_60.slvs"&gt;link_60.slvs&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/fourbar345.slvs"&gt;組立檔&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/fourbar.slvs"&gt;組立檔&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;利用solvespace組立及v-rep轉入&lt;/h3&gt;
@@ -1121,7 +1121,7 @@ Exit
 &lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/link_60.slvs"&gt;link_60.slvs&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/fourbar345.slvs"&gt;組立檔&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/data/w2/fourbar.slvs"&gt;組立檔&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</summary><category term="week2"></category></entry><entry><title>[Github] 默認倉儲設定</title><link href="./week1_1.html" rel="alternate"></link><published>2017-02-23T11:02:00+08:00</published><updated>2017-02-23T11:02:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-02-23:./week1_1.html</id><summary type="html">&lt;p&gt;[&lt;b&gt;&lt;font color="#FF0000"&gt;設定Github之默認倉儲&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;
 
