@@ -1,5 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-20T05:00:00+08:00</updated><entry><title>[懶人包] 期中前要做的事</title><link href="./week9_1.html" rel="alternate"></link><published>2017-04-20T05:00:00+08:00</published><updated>2017-04-20T05:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-04-20:./week9_1.html</id><summary type="html">&lt;p&gt;有鑒於方便資料整合，故將期中之前的筆記統整成一篇文章，方便其他同學能夠利用最少的時間，學到期中前這幾週老師的課程內容。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-27T11:00:00+08:00</updated><entry><title>[Week 10] 課程內容整理</title><link href="./week10.html" rel="alternate"></link><published>2017-04-27T11:00:00+08:00</published><updated>2017-04-27T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-04-27:./week10.html</id><summary type="html">&lt;p&gt;[Week 10] 第十週課程內容概要整理。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;將w10資料夾增加到data下，導入add.py，利用Brython顯示出來&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/hr&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 cdw10 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/w10']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython --&gt;
+
+&lt;div id="container" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;div id="container2" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+import add
+container = doc['container']
+container2 = doc['container2']
+
+a=1
+b=16
+sum=add.add(a,b)
+
+container &lt;= str(sum)
+
+degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    container2 &lt;= str(math.cos(60*degree)+float(a))
+doc["button1"].bind("click", button1)
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button1"&gt;按下取 a 值&lt;/button&gt;&lt;/p&gt;
+&lt;/script&gt;
+
+&lt;h3&gt;程式碼&lt;/h3&gt;
+&lt;p&gt;&lt;pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 cdw10 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/w10']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython --&gt;
+
+&lt;div id="container" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+import add
+container = doc['container']
+
+a=1
+b=16
+sum=add.add(a,b)
+
+container &lt;= str(sum)
+
+&lt;/script&gt;
+
+&lt;/pre&gt;</summary><category term="week10"></category></entry><entry><title>[懶人包] 期中前要做的事</title><link href="./week9_1.html" rel="alternate"></link><published>2017-04-20T05:00:00+08:00</published><updated>2017-04-20T05:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-04-20:./week9_1.html</id><summary type="html">&lt;p&gt;有鑒於方便資料整合，故將期中之前的筆記統整成一篇文章，方便其他同學能夠利用最少的時間，學到期中前這幾週老師的課程內容。&lt;/p&gt;
 
 
 &lt;hr/&gt;
