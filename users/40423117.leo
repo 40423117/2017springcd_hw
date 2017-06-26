@@ -80,6 +80,11 @@
 <v t="leo.20170511091654.1"><vh>@edit 20170511.md</vh></v>
 <v t="leo.20170608100357.1"><vh>@edit 20170518.md</vh></v>
 <v t="leo.20170608100705.1"><vh>@edit 20170601.md</vh></v>
+<v t="leo.20170626152226.1"><vh>@edit 20170608.md</vh></v>
+<v t="leo.20170626163759.1"><vh>@edit 20170615.md</vh></v>
+<v t="leo.20170626164054.1"><vh>@edit 20170615_final.md</vh></v>
+<v t="leo.20170626163527.1"><vh>@edit 20170615_2d.md</vh></v>
+<v t="leo.20170626183119.1"><vh>@edit 20170615_2d_axis.md</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>

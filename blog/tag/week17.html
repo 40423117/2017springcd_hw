@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>week17 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+    <meta name="author" content="KMOL" />
+    <meta name="keywords" content="week17" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="2017Spring 協同產品設計實習 (虎尾科大MDE)"/>
+        <meta property="og:url" content=".."/>
+        <meta property="og:description" content="2017Spring 協同產品設計實習 (虎尾科大MDE)"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="../theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="../theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="../theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="../theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="../theme/css/style.css" type="text/css"/>
+
+        <link href="../feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="2017Spring 協同產品設計實習 (虎尾科大MDE) ATOM Feed"/>
+
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushBash.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../" class="navbar-brand">
+2017Spring 協同產品設計實習 (虎尾科大MDE)            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="../pages/about/">
+                             About
+                          </a></li>
+                        <li >
+                            <a href="../category/course.html">Course</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="../search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+              <li><a href="../archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+            <article>
+                <h2><a href="../week17.html">[Week 17] 課程內容整理</a></h2>
+                <div class="summary"><p>[Week 17] 第十七週課程內容概要整理。</p>
+<p>以下各任務操作過程, 請以 ShareX 錄成 mp4, 以"學號-2017springcd-final-1.mp4 ~ 學號-2017springcd-final-7.mp4" 命名, 分別送到個人的 Youtube, Vimeo 與 Fossil SCM.</p>
+<ol>
+<li>
+<p>在各自的倉儲中, 建立一個雙足 solvepace 機構零組件, 存入 final 子目錄中</p>
+</li>
+<li>
+<p>在各自的網誌上, 以 "W17 行走機構 2D 靜態繪圖"為標題, 以 Brython 畫出行走機構的示意圖.</p>
+</li>
+<li>
+<p>在各自的倉儲中, 將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄, 並設法導入其中的 script1.py 進行 axises() 繪圖函式的呼叫, 在任務 2 的圖中畫出座標軸.</p>
+</li>
+<li>
+<p>在各自的網誌中設法動態顯示出任務 1 所完成的零組件.</p>
+</li>
+<li>
+<p>將任務 1 所完成的行走機構匯入 V-rep, 並設法模擬雙足機構作動過程.</p>
+</li>
+<li>
+<p>請在網誌中, 以"期末分組專題"為標題, 說明在分組行走機構模擬與實作過程中所扮演的角色, 並說明所負責完成的任務.</p>
+</li>
+<li>
+<p>各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.</p>
+</li>
+</ol>
+
+                    <a class="btn btn-default btn-xs" href="../week17.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../week17_2d.html">W17 行走機構 2D 靜態繪圖</a></h2>
+                <div class="summary"><p>[W17 行走機構 2D 靜態繪圖]</p>
+<ol>
+<li>建立一個雙足 solvepace 機構零組件, 以 "W17 行走機構 2D 靜態繪圖"為標題, 使用 Brython 畫出行走機構的示意圖.</li>
+</ol>
+
+                    <a class="btn btn-default btn-xs" href="../week17_2d.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../week17_2d_axis.html">[Final] axises繪圖函式呼叫</a></h2>
+                <div class="summary"><p>[W17 行走機構 2D 靜態繪圖]</p>
+<ol>
+<li>在各自的倉儲中, 將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄, 並設法導入其中的 script1.py 進行 axises() 繪圖函式的呼叫, 在任務 2 的圖中畫出座標軸.</li>
+</ol>
+
+                    <a class="btn btn-default btn-xs" href="../week17_2d_axis.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../week17_final.html">期末分組專題</a></h2>
+                <div class="summary"><p>[期末分組專題] </p>
+<ol>
+<li>第二組_四足機構V-ERP模擬與實作及檔案分享</li>
+</ol>
+
+                    <a class="btn btn-default btn-xs" href="../week17_final.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="../week17.html">
+                            [Week 17] 課程內容整理
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../week17_2d.html">
+                            W17 行走機構 2D 靜態繪圖
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../week17_2d_axis.html">
+                            [Final] axises繪圖函式呼叫
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../week17_final.html">
+                            期末分組專題
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="../categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+                <ul class="list-group" id="categories">
+                    <li class="list-group-item">
+                        <a href="../category/course.html">
+                            <i class="fa fa-folder-open fa-lg"></i> Course
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="../tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group list-inline tagcloud" id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/DandyDev/pelican-bootstrap3/" target="_blank">
+                pelican-bootstrap3
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/getpelican/pelican-plugins" target="_blank">
+                pelican-plugins
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/Tipue/Tipue-Search" target="_blank">
+                Tipue search
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2017 KMOL
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="../theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../theme/js/bootstrap.min.js"></script>
+
+<!-- for https://github.com/jsor/lity lightbox video popup -->
+
+<link href="../theme/css/lity.css" rel="stylesheet">
+
+<script src="../theme/js/lity.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="../theme/js/respond.min.js"></script>
+
+
+</body>
+</html>

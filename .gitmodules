@@ -1,0 +1,3 @@
+[submodule "cdbw17"]
+	path = cdbw17
+	url = https://github.com/scrum-1/cdbw17.git

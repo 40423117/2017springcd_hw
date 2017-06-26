@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>[Week 17] 課程內容整理 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="./week17.html">
+
+        <meta name="author" content="40423117" />
+        <meta name="keywords" content="week17" />
+        <meta name="description" content="[Week 17] 第十七週課程內容概要整理。 以下各任務操作過程, 請以 ShareX 錄成 mp4, 以&#34;學號-2017springcd-final-1.mp4 ~ 學號-2017springcd-final-7.mp4&#34; 命名, 分別送到個人的 Youtube, Vimeo 與 Fossil SCM. 在各自的倉儲中, 建立一個雙足 solvepace 機構零組件, 存入 final 子目錄中 在各自的網誌上, 以 &#34;W17 行走機構 2D 靜態繪圖&#34;為標題, 以 Brython 畫出行走機構的示意圖. 在各自的倉儲中, 將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄, 並設法導入其中的 script1.py 進行 axises() 繪圖函式的呼叫, 在任務 2 的圖中畫出座標軸. 在各自的網誌中設法動態顯示出任務 1 所完成的零組件. 將任務 1 所完成的行走機構匯入 V-rep, 並設法模擬雙足機構作動過程. 請在網誌中, 以&#34;期末分組專題&#34;為標題, 說明在分組行走機構模擬與實作過程中所扮演的角色, 並說明所負責完成的任務. 各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報." />
+
+        <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="[Week 17] 課程內容整理"/>
+        <meta property="og:url" content="./week17.html"/>
+        <meta property="og:description" content="[Week 17] 第十七週課程內容概要整理。 以下各任務操作過程, 請以 ShareX 錄成 mp4, 以&#34;學號-2017springcd-final-1.mp4 ~ 學號-2017springcd-final-7.mp4&#34; 命名, 分別送到個人的 Youtube, Vimeo 與 Fossil SCM. 在各自的倉儲中, 建立一個雙足 solvepace 機構零組件, 存入 final 子目錄中 在各自的網誌上, 以 &#34;W17 行走機構 2D 靜態繪圖&#34;為標題, 以 Brython 畫出行走機構的示意圖. 在各自的倉儲中, 將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄, 並設法導入其中的 script1.py 進行 axises() 繪圖函式的呼叫, 在任務 2 的圖中畫出座標軸. 在各自的網誌中設法動態顯示出任務 1 所完成的零組件. 將任務 1 所完成的行走機構匯入 V-rep, 並設法模擬雙足機構作動過程. 請在網誌中, 以&#34;期末分組專題&#34;為標題, 說明在分組行走機構模擬與實作過程中所扮演的角色, 並說明所負責完成的任務. 各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報."/>
+        <meta property="article:published_time" content="2017-06-15" />
+            <meta property="article:section" content="Course" />
+            <meta property="article:tag" content="week17" />
+            <meta property="article:author" content="40423117" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="2017Spring 協同產品設計實習 (虎尾科大MDE) ATOM Feed"/>
+
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushBash.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+2017Spring 協同產品設計實習 (虎尾科大MDE)            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="./pages/about/">
+                             About
+                          </a></li>
+                        <li class="active">
+                            <a href="./category/course.html">Course</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="./search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+              <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./week17.html"
+                       rel="bookmark"
+                       title="Permalink to [Week 17] 課程內容整理">
+                        [Week 17] 課程內容整理
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-06-15T11:00:00+08:00"> Thu 15 June 2017</time>
+    </span>
+            <span class="label label-default">By</span>
+            <a href="./author/40423117.html"><i class="fa fa-user"></i> 40423117</a>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/week17.html">week17</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>[Week 17] 第十七週課程內容概要整理。</p>
+<p>以下各任務操作過程, 請以 ShareX 錄成 mp4, 以"學號-2017springcd-final-1.mp4 ~ 學號-2017springcd-final-7.mp4" 命名, 分別送到個人的 Youtube, Vimeo 與 Fossil SCM.</p>
+<ol>
+<li>
+<p>在各自的倉儲中, 建立一個雙足 solvepace 機構零組件, 存入 final 子目錄中</p>
+</li>
+<li>
+<p>在各自的網誌上, 以 "W17 行走機構 2D 靜態繪圖"為標題, 以 Brython 畫出行走機構的示意圖.</p>
+</li>
+<li>
+<p>在各自的倉儲中, 將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄, 並設法導入其中的 script1.py 進行 axises() 繪圖函式的呼叫, 在任務 2 的圖中畫出座標軸.</p>
+</li>
+<li>
+<p>在各自的網誌中設法動態顯示出任務 1 所完成的零組件.</p>
+</li>
+<li>
+<p>將任務 1 所完成的行走機構匯入 V-rep, 並設法模擬雙足機構作動過程.</p>
+</li>
+<li>
+<p>請在網誌中, 以"期末分組專題"為標題, 說明在分組行走機構模擬與實作過程中所扮演的角色, 並說明所負責完成的任務.</p>
+</li>
+<li>
+<p>各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.</p>
+</li>
+</ol>
+
+
+</hr>
+
+<h3>第一項</h3>
+<hr>
+
+<p>在各自的倉儲中, 建立一個雙足 solvepace 機構零組件, 存入 final 子目錄中</p>
+<p><button onClick="lity('https://www.youtube.com/embed/PmwOmaszB8g?rel=0')"><span class="glyphicon glyphicon-facetime-video"></span> Videos：40423117-2017springcd-final-1 </button></p>
+<ul>
+<li>
+<p><a href="https://40423117.github.io/2017springcd_hw/final/all.slvs">all.slvs</a></p>
+</li>
+<li>
+<p><a href="https://40423117.github.io/2017springcd_hw/final/all.stl">all.stl</a></p>
+</li>
+<li>
+<p><a href="https://40423117.github.io/2017springcd_hw/final/all_vrep.ttt">all_vrep.ttt</a></p>
+</li>
+<li>
+<p><a href="https://40423117.github.io/2017springcd_hw/final/leg.slvs">leg.slvs</a></p>
+</li>
+<li>
+<p><a href="https://40423117.github.io/2017springcd_hw/final/foot.slvs">foot.slvs</a></p>
+</li>
+<li>
+<p><a href="https://40423117.github.io/2017springcd_hw/final/bar.slvs">bar.slvs</a></p>
+</li>
+</ul>
+<h3>第二項  (<small><a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d.html">W17 行走機構 2D 靜態繪圖</a> </small>)</h3>
+<hr>
+
+<p>在各自的網誌上, 以 "W17 行走機構 2D 靜態繪圖"為標題, 以 Brython 畫出行走機構的示意圖.</p>
+<p><button onClick="lity('https://www.youtube.com/embed/TDWwsVW2AaE?rel=0')"><span class="glyphicon glyphicon-facetime-video"></span> Videos：40423117-2017springcd-final-2 </button></p>
+<p><b>快速連結：</b><a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d.html">W17 行走機構 2D 靜態繪圖</a> </p>
+<h3>第三項  (<small><a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d_axis.html">Final axises繪圖函式呼叫</a> </small>)</h3>
+<hr>
+
+<p>在各自的倉儲中, 將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄, 並設法導入其中的 script1.py 進行 axises() 繪圖函式的呼叫, 在任務 2 的圖中畫出座標軸.</p>
+<p><button onClick="lity('https://www.youtube.com/embed/9xB-wKKzoyc?rel=0')"><span class="glyphicon glyphicon-facetime-video"></span> Videos：40423117-2017springcd-final-3 </button></p>
+<p>我們可以查看到 cdbw17 中倉儲的 default branch 僅有 master，且老師要求的 w17子目錄則在 master分支下，以下的程式碼，則表示我們要追蹤子模組中的 master分支。</p>
+<p><code>git submodule add -b master https://github.com/scrum-1/cdbw17.git cdbw17</code> </p>
+<p><b>快速連結：</b><a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d_axis.html">Final axises繪圖函式呼叫</a> </p>
+<h3>第四項</h3>
+<hr>
+
+<p>在各自的網誌中設法動態顯示出任務 1 所完成的零組件.</p>
+<p><button onClick="lity('https://www.youtube.com/embed/sqPTltp_PC4?rel=0')"><span class="glyphicon glyphicon-facetime-video"></span> Videos：40423117-2017springcd-final-4 </button></p>
+<p><link href="./../data/madeleine/src/css/Madeleine.css" rel="stylesheet">
+<script src="./../data/madeleine/src/stats.js"></script>
+<script src="./../data/madeleine/src/detector.js"></script>
+<script src="./../data/madeleine/src/three.min.js"></script>
+<script src="./../data/madeleine/src/Madeleine.js"></script></p>
+<div id="target" class="madeleine"></div>
+
+<script>
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../final/all.stl', // data path
+      path: './../data/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+</script>
+
+<p>上述展示程式碼:</p>
+<pre class="brush: python">
+<link href="./../data/madeleine/src/css/Madeleine.css" rel="stylesheet">
+<script src="./../data/madeleine/src/stats.js"></script>
+<script src="./../data/madeleine/src/detector.js"></script>
+<script src="./../data/madeleine/src/three.min.js"></script>
+<script src="./../data/madeleine/src/Madeleine.js"></script>
+
+<div id="target" class="madeleine"></div>
+
+<script>
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../final/all.stl', // data path
+      path: './../data/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+</script>
+</pre>
+
+<iframe src="./../final/threejs/final.html" width="600" height="400"></iframe>
+
+<h3>第五項</h3>
+<hr>
+
+<p>將任務 1 所完成的行走機構匯入 V-rep, 並設法模擬雙足機構作動過程.</p>
+<p><button onClick="lity('https://www.youtube.com/embed/71Y-RFo2OWM?rel=0')"><span class="glyphicon glyphicon-facetime-video"></span> Videos：40423117-2017springcd-final-5 </button></p>
+<h3>第六項  (<small><a href="https://40423117.github.io/2017springcd_hw/blog/week17_final.html">期末分組專題</a> </small>)</h3>
+<hr>
+
+<p>請在網誌中, 以"期末分組專題"為標題, 說明在分組行走機構模擬與實作過程中所扮演的角色, 並說明所負責完成的任務.</p>
+<p><button onClick="lity('https://www.youtube.com/embed/rzuJ6d3NtZI?rel=0')"><span class="glyphicon glyphicon-facetime-video"></span> Videos：40423117-2017springcd-final-6 </button></p>
+<p><b>快速連結：</b><a href="https://40423117.github.io/2017springcd_hw/blog/week17_final.html">期末分組專題</a> </p>
+<h3>第七項  (<small><a href="https://40423117.github.io/2017springcd_hw/blog/week16.html">Week 16 Fossil 作業上傳</a> </small>)</h3>
+<hr>
+
+<p>各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.</p>
+<p><button onClick="lity('https://www.youtube.com/embed/OhLDX_7pfWE?rel=0')"><span class="glyphicon glyphicon-facetime-video"></span> Videos：40423117-2017springcd-final-7 </button></p>
+<p><button onClick="lity('https://www.youtube.com/embed/8_40JZBbh_w?rel=0')"><span class="glyphicon glyphicon-facetime-video"></span> Videos：40423117-2017springcd-final-7_fossil </button></p>
+<p><b>快速連結：</b><a href="https://40423117.github.io/2017springcd_hw/blog/week16.html">Week 16 Fossil 作業上傳</a> </p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="./week17.html">
+                            [Week 17] 課程內容整理
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./week17_2d.html">
+                            W17 行走機構 2D 靜態繪圖
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./week17_2d_axis.html">
+                            [Final] axises繪圖函式呼叫
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./week17_final.html">
+                            期末分組專題
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./week16.html">
+                            [Week 16] Fossil 作業上傳
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+                <ul class="list-group" id="categories">
+                    <li class="list-group-item">
+                        <a href="./category/course.html">
+                            <i class="fa fa-folder-open fa-lg"></i> Course
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group list-inline tagcloud" id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/DandyDev/pelican-bootstrap3/" target="_blank">
+                pelican-bootstrap3
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/getpelican/pelican-plugins" target="_blank">
+                pelican-plugins
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/Tipue/Tipue-Search" target="_blank">
+                Tipue search
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2017 KMOL
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="./theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- for https://github.com/jsor/lity lightbox video popup -->
+
+<link href="./theme/css/lity.css" rel="stylesheet">
+
+<script src="./theme/js/lity.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+
+</body>
+</html>

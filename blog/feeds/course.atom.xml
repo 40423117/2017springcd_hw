@@ -1,5 +1,474 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-06-01T11:00:00+08:00</updated><entry><title>[Week 15] 課程內容整理</title><link href="./week15.html" rel="alternate"></link><published>2017-06-01T11:00:00+08:00</published><updated>2017-06-01T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-01:./week15.html</id><summary type="html">&lt;p&gt;[Week 15] 第十五週課程內容概要整理。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-06-15T11:00:00+08:00</updated><entry><title>[Week 17] 課程內容整理</title><link href="./week17.html" rel="alternate"></link><published>2017-06-15T11:00:00+08:00</published><updated>2017-06-15T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-15:./week17.html</id><summary type="html">&lt;p&gt;[Week 17] 第十七週課程內容概要整理。&lt;/p&gt;
+&lt;p&gt;以下各任務操作過程, 請以 ShareX 錄成 mp4, 以"學號-2017springcd-final-1.mp4 ~ 學號-2017springcd-final-7.mp4" 命名, 分別送到個人的 Youtube, Vimeo 與 Fossil SCM.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在各自的倉儲中, 建立一個雙足 solvepace 機構零組件, 存入 final 子目錄中&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在各自的網誌上, 以 "W17 行走機構 2D 靜態繪圖"為標題, 以 Brython 畫出行走機構的示意圖.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在各自的倉儲中, 將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄, 並設法導入其中的 script1.py 進行 axises() 繪圖函式的呼叫, 在任務 2 的圖中畫出座標軸.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在各自的網誌中設法動態顯示出任務 1 所完成的零組件.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;將任務 1 所完成的行走機構匯入 V-rep, 並設法模擬雙足機構作動過程.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;請在網誌中, 以"期末分組專題"為標題, 說明在分組行走機構模擬與實作過程中所扮演的角色, 並說明所負責完成的任務.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/hr&gt;
+
+&lt;h3&gt;第一項&lt;/h3&gt;
+&lt;hr&gt;
+
+&lt;p&gt;在各自的倉儲中, 建立一個雙足 solvepace 機構零組件, 存入 final 子目錄中&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/PmwOmaszB8g?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Videos：40423117-2017springcd-final-1 &lt;/button&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/all.slvs"&gt;all.slvs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/all.stl"&gt;all.stl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/all_vrep.ttt"&gt;all_vrep.ttt&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/leg.slvs"&gt;leg.slvs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/foot.slvs"&gt;foot.slvs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/bar.slvs"&gt;bar.slvs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;第二項  (&lt;small&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d.html"&gt;W17 行走機構 2D 靜態繪圖&lt;/a&gt; &lt;/small&gt;)&lt;/h3&gt;
+&lt;hr&gt;
+
+&lt;p&gt;在各自的網誌上, 以 "W17 行走機構 2D 靜態繪圖"為標題, 以 Brython 畫出行走機構的示意圖.&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/TDWwsVW2AaE?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Videos：40423117-2017springcd-final-2 &lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;快速連結：&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d.html"&gt;W17 行走機構 2D 靜態繪圖&lt;/a&gt; &lt;/p&gt;
+&lt;h3&gt;第三項  (&lt;small&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d_axis.html"&gt;Final axises繪圖函式呼叫&lt;/a&gt; &lt;/small&gt;)&lt;/h3&gt;
+&lt;hr&gt;
+
+&lt;p&gt;在各自的倉儲中, 將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄, 並設法導入其中的 script1.py 進行 axises() 繪圖函式的呼叫, 在任務 2 的圖中畫出座標軸.&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/9xB-wKKzoyc?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Videos：40423117-2017springcd-final-3 &lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;我們可以查看到 cdbw17 中倉儲的 default branch 僅有 master，且老師要求的 w17子目錄則在 master分支下，以下的程式碼，則表示我們要追蹤子模組中的 master分支。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git submodule add -b master https://github.com/scrum-1/cdbw17.git cdbw17&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;快速連結：&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d_axis.html"&gt;Final axises繪圖函式呼叫&lt;/a&gt; &lt;/p&gt;
+&lt;h3&gt;第四項&lt;/h3&gt;
+&lt;hr&gt;
+
+&lt;p&gt;在各自的網誌中設法動態顯示出任務 1 所完成的零組件.&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/sqPTltp_PC4?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Videos：40423117-2017springcd-final-4 &lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;link href="./../data/madeleine/src/css/Madeleine.css" rel="stylesheet"&gt;
+&lt;script src="./../data/madeleine/src/stats.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/detector.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/three.min.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/Madeleine.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;div id="target" class="madeleine"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../final/all.stl', // data path
+      path: './../data/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+&lt;/script&gt;
+
+&lt;p&gt;上述展示程式碼:&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+&lt;link href="./../data/madeleine/src/css/Madeleine.css" rel="stylesheet"&gt;
+&lt;script src="./../data/madeleine/src/stats.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/detector.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/three.min.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/Madeleine.js"&gt;&lt;/script&gt;
+
+&lt;div id="target" class="madeleine"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../final/all.stl', // data path
+      path: './../data/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+&lt;/script&gt;
+&lt;/pre&gt;
+
+&lt;iframe src="./../final/threejs/final.html" width="600" height="400"&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;第五項&lt;/h3&gt;
+&lt;hr&gt;
+
+&lt;p&gt;將任務 1 所完成的行走機構匯入 V-rep, 並設法模擬雙足機構作動過程.&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/71Y-RFo2OWM?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Videos：40423117-2017springcd-final-5 &lt;/button&gt;&lt;/p&gt;
+&lt;h3&gt;第六項  (&lt;small&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_final.html"&gt;期末分組專題&lt;/a&gt; &lt;/small&gt;)&lt;/h3&gt;
+&lt;hr&gt;
+
+&lt;p&gt;請在網誌中, 以"期末分組專題"為標題, 說明在分組行走機構模擬與實作過程中所扮演的角色, 並說明所負責完成的任務.&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/rzuJ6d3NtZI?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Videos：40423117-2017springcd-final-6 &lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;快速連結：&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_final.html"&gt;期末分組專題&lt;/a&gt; &lt;/p&gt;
+&lt;h3&gt;第七項  (&lt;small&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week16.html"&gt;Week 16 Fossil 作業上傳&lt;/a&gt; &lt;/small&gt;)&lt;/h3&gt;
+&lt;hr&gt;
+
+&lt;p&gt;各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/OhLDX_7pfWE?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Videos：40423117-2017springcd-final-7 &lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/8_40JZBbh_w?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Videos：40423117-2017springcd-final-7_fossil &lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;快速連結：&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week16.html"&gt;Week 16 Fossil 作業上傳&lt;/a&gt; &lt;/p&gt;</summary><category term="week17"></category></entry><entry><title>W17 行走機構 2D 靜態繪圖</title><link href="./week17_2d.html" rel="alternate"></link><published>2017-06-15T10:00:00+08:00</published><updated>2017-06-15T10:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-15:./week17_2d.html</id><summary type="html">&lt;p&gt;[W17 行走機構 2D 靜態繪圖]&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;建立一個雙足 solvepace 機構零組件, 以 "W17 行走機構 2D 靜態繪圖"為標題, 使用 Brython 畫出行走機構的示意圖.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/hr&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="./../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="./../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../cdbw17/w17']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫行走機構 --&gt;
+
+&lt;h3&gt;將 &lt;a href="http://snapsvg.io/"&gt;Snap&lt;/a&gt;轉為 Brython 物件畫出行走機構的示意圖&lt;/h3&gt;
+&lt;script type="text/javascript" src="./../data/snap/snap.svg-min.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;svg id="svgout" width="500" height="350" viewBox="0 0 500 350"&gt;&lt;/svg&gt;&lt;/p&gt;
+&lt;script type="text/python"&gt;
+from browser import window
+from browser import document
+# 將 Snap 轉為 Brython 物件
+snap = window.Snap.new
+
+s = snap("#svgout")
+# 建立物件時, 同時設定 id 名稱
+
+# callback 函式
+def onSVGLoaded(data):
+    g.append(data)
+
+g = s.group().attr({'id': 'tux'})
+
+# 利用 window.Snap.load 載入 svg 檔案
+tux = window.Snap.load("./../final/all.svg", onSVGLoaded)
+g.transform('t0,20')
+
+&lt;/script&gt;
+
+&lt;p&gt;上述繪圖程式碼:&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+&lt;script type="text/javascript" src="./../data/snap/snap.svg-min.js"&gt;&lt;/script&gt;
+&lt;svg id="svgout" width="800" height="500" viewBox="0 0 800 500"&gt;&lt;/svg&gt;
+
+&lt;script type="text/python"&gt;
+from browser import window
+from browser import document
+# 將 Snap 轉為 Brython 物件
+snap = window.Snap.new
+
+s = snap("#svgout")
+# 建立物件時, 同時設定 id 名稱
+
+# callback 函式
+def onSVGLoaded(data):
+    g.append(data)
+
+g = s.group().attr({'id': 'tux'})
+
+# 利用 window.Snap.load 載入 svg 檔案
+tux = window.Snap.load("./../final/all.svg", onSVGLoaded)
+g.transform('t0,20')
+
+&lt;/script&gt;
+&lt;/pre&gt;
+
+&lt;!-- 以下實際利用  Brython 畫兩條直線 --&gt;
+
+&lt;canvas id="two_foot" width="800" height="600"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+# 準備繪圖畫布
+canvas = doc["two_foot"]
+ctx = canvas.getContext("2d")
+
+#繪製第一隻腳
+ctx.beginPath()
+ctx.moveTo(180,420)
+ctx.lineTo(320,480)
+ctx.lineTo(345.714,420)
+ctx.lineTo(303.688,401.999)
+ctx.lineTo(435.261,153.022)
+ctx.lineTo(387.984,128.037)
+ctx.lineTo(256.441,377.004)
+ctx.lineTo(207.424,356.01)
+ctx.lineTo(180,420)
+ctx.fillStyle="black"
+ctx.fill()
+
+#繪製第二隻腳
+ctx.beginPath()
+ctx.moveTo(406.02,128.666)
+ctx.lineTo(357.119,150.3)
+ctx.lineTo(471.046,407.819)
+ctx.lineTo(424.218,433.268)
+ctx.lineTo(457.46,494.438)
+ctx.lineTo(591.29,421.709)
+ctx.lineTo(560.121,364.353)
+ctx.lineTo(519.947,386.185)
+ctx.lineTo(406.02,128.666)
+ctx.fillStyle="red"
+ctx.fill()
+
+&lt;/script&gt;
+
+&lt;p&gt;上述繪圖程式碼:&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+# 準備繪圖畫布
+canvas = doc["two_foot"]
+ctx = canvas.getContext("2d")
+
+#繪製第一隻腳
+ctx.beginPath()
+ctx.moveTo(180,420)
+ctx.lineTo(320,480)
+ctx.lineTo(345.714,420)
+ctx.lineTo(303.688,401.999)
+ctx.lineTo(435.261,153.022)
+ctx.lineTo(387.984,128.037)
+ctx.lineTo(256.441,377.004)
+ctx.lineTo(207.424,356.01)
+ctx.lineTo(180,420)
+ctx.fillStyle="black"
+ctx.fill()
+
+#繪製第二隻腳
+ctx.beginPath()
+ctx.moveTo(406.02,128.666)
+ctx.lineTo(357.119,150.3)
+ctx.lineTo(471.046,407.819)
+ctx.lineTo(424.218,433.268)
+ctx.lineTo(457.46,494.438)
+ctx.lineTo(591.29,421.709)
+ctx.lineTo(560.121,364.353)
+ctx.lineTo(519.947,386.185)
+ctx.lineTo(406.02,128.666)
+ctx.fillStyle="red"
+ctx.fill()
+
+&lt;/script&gt;
+&lt;/pre&gt;</summary><category term="week17"></category></entry><entry><title>[Final] axises繪圖函式呼叫</title><link href="./week17_2d_axis.html" rel="alternate"></link><published>2017-06-15T10:00:00+08:00</published><updated>2017-06-15T10:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-15:./week17_2d_axis.html</id><summary type="html">&lt;p&gt;[W17 行走機構 2D 靜態繪圖]&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在各自的倉儲中, 將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄, 並設法導入其中的 script1.py 進行 axises() 繪圖函式的呼叫, 在任務 2 的圖中畫出座標軸.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/hr&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="./../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="./../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../cdbw17/w17']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫兩條直線 --&gt;
+
+&lt;canvas id="two_foot" width="800" height="600"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+import script1
+# 準備繪圖畫布
+canvas = doc["two_foot"]
+ctx = canvas.getContext("2d")
+
+script1.axises(ctx)
+
+#繪製第一隻腳
+ctx.beginPath()
+ctx.moveTo(180,420)
+ctx.lineTo(320,480)
+ctx.lineTo(345.714,420)
+ctx.lineTo(303.688,401.999)
+ctx.lineTo(435.261,153.022)
+ctx.lineTo(387.984,128.037)
+ctx.lineTo(256.441,377.004)
+ctx.lineTo(207.424,356.01)
+ctx.lineTo(180,420)
+ctx.fillStyle="black"
+ctx.fill()
+
+#繪製第二隻腳
+ctx.beginPath()
+ctx.moveTo(406.02,128.666)
+ctx.lineTo(357.119,150.3)
+ctx.lineTo(471.046,407.819)
+ctx.lineTo(424.218,433.268)
+ctx.lineTo(457.46,494.438)
+ctx.lineTo(591.29,421.709)
+ctx.lineTo(560.121,364.353)
+ctx.lineTo(519.947,386.185)
+ctx.lineTo(406.02,128.666)
+ctx.fillStyle="red"
+ctx.fill()
+
+&lt;/script&gt;
+
+&lt;p&gt;上述繪圖程式碼:&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+&lt;canvas id="two_foot" width="800" height="600"&gt;&lt;/canvas&gt;
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+import script1
+# 準備繪圖畫布
+canvas = doc["two_foot"]
+ctx = canvas.getContext("2d")
+
+script1.axises(ctx)
+
+#繪製第一隻腳
+ctx.beginPath()
+ctx.moveTo(180,420)
+ctx.lineTo(320,480)
+ctx.lineTo(345.714,420)
+ctx.lineTo(303.688,401.999)
+ctx.lineTo(435.261,153.022)
+ctx.lineTo(387.984,128.037)
+ctx.lineTo(256.441,377.004)
+ctx.lineTo(207.424,356.01)
+ctx.lineTo(180,420)
+ctx.fillStyle="black"
+ctx.fill()
+
+#繪製第二隻腳
+ctx.beginPath()
+ctx.moveTo(406.02,128.666)
+ctx.lineTo(357.119,150.3)
+ctx.lineTo(471.046,407.819)
+ctx.lineTo(424.218,433.268)
+ctx.lineTo(457.46,494.438)
+ctx.lineTo(591.29,421.709)
+ctx.lineTo(560.121,364.353)
+ctx.lineTo(519.947,386.185)
+ctx.lineTo(406.02,128.666)
+ctx.fillStyle="red"
+ctx.fill()
+&lt;/script&gt;
+&lt;/pre&gt;</summary><category term="week17"></category></entry><entry><title>期末分組專題</title><link href="./week17_final.html" rel="alternate"></link><published>2017-06-15T09:00:00+08:00</published><updated>2017-06-15T09:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-15:./week17_final.html</id><summary type="html">&lt;p&gt;[期末分組專題] &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;第二組_四足機構V-ERP模擬與實作及檔案分享&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/hr&gt;
+
+&lt;h3&gt;四足機構模擬與實作&lt;/h3&gt;
+&lt;hr&gt;
+
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/rzuJ6d3NtZI?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片點我觀看 &lt;/button&gt;&lt;/p&gt;
+&lt;h3&gt;檔案分享&lt;/h3&gt;
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/fourfoot/ag2_final_asm.stl"&gt;ag2_final_asm.stl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/fourfoot/ag2_final.stl"&gt;ag2_final.stl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/fourfoot/ag2_final(1).stl"&gt;ag2_final(1).stl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/fourfoot/ag2_final(2).stl"&gt;ag2_final(2).stl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/fourfoot/ag2_final(3).stl"&gt;ag2_final(3).stl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/fourfoot/ag2_final(4).stl"&gt;ag2_final(4).stl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/fourfoot/ag2_final(5).stl"&gt;ag2_final(5).stl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/fourfoot/ag2_final(6).stl"&gt;ag2_final(6).stl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/fourfoot/ag2_final(7).stl"&gt;ag2_final(7).stl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/fourfoot/ag2_final(8).stl"&gt;ag2_final(8).stl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/final/fourfoot/ag2_final(9).stl"&gt;ag2_final(9).stl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="week17"></category></entry><entry><title>[Week 16] Fossil 作業上傳</title><link href="./week16.html" rel="alternate"></link><published>2017-06-08T11:00:00+08:00</published><updated>2017-06-08T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-08:./week16.html</id><summary type="html">&lt;p&gt;[Week 16] 第十六週課程內容概要整理。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;老師今天要同學，使用 Fossil 將作業檔案上傳&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/hr&gt;
+
+&lt;h3&gt;Download fossil →  Upload fossil&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/8_40JZBbh_w?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片點我觀看 &lt;/button&gt;&lt;/p&gt;
+&lt;h3&gt;部分講解：&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;讓 fossil 能夠自動上傳&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;fossil clone https://帳號@mde2a2.kmol.info/cdag2 cdag2.fossil&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;必須再建立一個資料夾，進到裡面後開啟fossil，如果沒有此步驟，則cdag2.fossil檔案會跟著上傳哦！&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;fossil open ./../cdag2.fossil&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;告訴fossil加入了所有檔案&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;fossil add .&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;Commit訊息&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;fossil commit -m "add final_hw_40423117"&lt;/code&gt; &lt;/p&gt;</summary><category term="week16"></category></entry><entry><title>[Week 15] 課程內容整理</title><link href="./week15.html" rel="alternate"></link><published>2017-06-01T11:00:00+08:00</published><updated>2017-06-01T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-01:./week15.html</id><summary type="html">&lt;p&gt;[Week 15] 第十五週課程內容概要整理。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 , 壓力角 20, 齒數為 36 齒, 且只有上半齒形的漸開線正齒輪輪廓&lt;/p&gt;
