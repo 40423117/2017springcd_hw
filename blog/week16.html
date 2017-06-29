@@ -168,17 +168,31 @@
 <hr/>
 
 <p><button onClick="lity('https://www.youtube.com/embed/8_40JZBbh_w?rel=0')"><span class="glyphicon glyphicon-facetime-video"></span> 影片點我觀看 </button></p>
-<h3>部分講解：</h3>
+<h3>講解：</h3>
 <hr/>
 
-<p>讓 fossil 能夠自動上傳</p>
+<p><img src="./../final/7/1.JPG" height="450px"></p>
+<p>[mkdir]為建立一個名為 cdag2 的資料夾，[cd] 為進去名為 cdag2 的資料夾  [註：cdag2 為我本學期的組別，同學請自行更改]</p>
+<p><code>mkdir cdag2</code>  <code>cd cdag2</code> </p>
+<p>讓 fossil 能夠自動上傳 [註：cdag2 為我本學期的組別，同學請自行更改]</p>
 <p><code>fossil clone https://帳號@mde2a2.kmol.info/cdag2 cdag2.fossil</code> </p>
-<p>必須再建立一個資料夾，進到裡面後開啟fossil，如果沒有此步驟，則cdag2.fossil檔案會跟著上傳哦！</p>
+<p><hr/>
+<img src="./../final/7/2.JPG" height="450px"></p>
+<p>[mkdir]為建立一個名為 fossils 的資料夾，[cd] 為進去名為 fossils 的資料夾  [註：這個資料夾為開啟fossils用]</p>
+<p><code>mkdir fossils</code>  <code>cd fossils</code> </p>
+<p>進到裡面後開啟fossil，<b><font color="#FF0000">如果沒有此步驟，則cdag2.fossil檔案會跟著上傳哦！</font></b></p>
 <p><code>fossil open ./../cdag2.fossil</code> </p>
+<p><hr/>
+<img src="./../final/7/3.JPG" height="450px"></p>
 <p>告訴fossil加入了所有檔案</p>
 <p><code>fossil add .</code> </p>
-<p>Commit訊息</p>
+<p><hr/>
+<img src="./../final/7/4.JPG" height="450px"></p>
+<p>Commit訊息  [註：因在第一步驟fossil clone的設置，Commit完後會自動提交]</p>
 <p><code>fossil commit -m "add final_hw_40423117"</code> </p>
+<p><hr/>
+<img src="./../final/7/5.JPG" height="450px"></p>
+<p>等待將檔案上傳完畢即可。  <a href="https://mde2a2.kmol.info/cdag2/home">Cdag2.html</a></p>
             </div>
             <!-- /.entry-content -->
         </article>
@@ -194,8 +208,13 @@
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="./week18.html">
+                            [Week 18] 期末總整理
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="./week17.html">
-                            [Week 17] 課程內容整理
+                            [Week 17] 期末協同查驗與自評
                         </a>
                     </li>
                     <li class="list-group-item">
@@ -211,11 +230,6 @@
                     <li class="list-group-item">
                         <a href="./week17_final.html">
                             期末分組專題
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./week16.html">
-                            [Week 16] Fossil 作業上傳
                         </a>
                     </li>
                 </ul>

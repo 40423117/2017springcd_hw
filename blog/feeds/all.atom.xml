@@ -1,5 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-15T11:00:00+08:00</updated><entry><title>[Week 17] 課程內容整理</title><link href="./week17.html" rel="alternate"></link><published>2017-06-15T11:00:00+08:00</published><updated>2017-06-15T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-15:./week17.html</id><summary type="html">&lt;p&gt;[Week 17] 第十七週課程內容概要整理。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-22T11:00:00+08:00</updated><entry><title>[Week 18] 期末總整理</title><link href="./week18.html" rel="alternate"></link><published>2017-06-22T11:00:00+08:00</published><updated>2017-06-22T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-22:./week18.html</id><summary type="html">&lt;p&gt;[Week 18] 期末總整理&lt;/p&gt;
+&lt;p&gt;有鑒於方便資料整合，故將期中後到期末的筆記統整成一篇文章，方便其他同學能夠利用最少的時間，學到期中後到期末這幾週老師的課程內容。&lt;/p&gt;
+
+
+&lt;hr/&gt;
+
+&lt;h3&gt;課程內容概要整理&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week10.html"&gt;[Week 10]&lt;/a&gt; 第十週課程內容概要整理。&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week10.html"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;點我看&lt;/button&gt;&lt;/a&gt;
+&lt;hr/&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;將w10資料夾增加到data下，導入add.py，利用Brython顯示出來&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;hr/&gt;
+&lt;b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week12.html"&gt;[Week 12]&lt;/a&gt; 第十二週課程內容概要整理。&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week12.html"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;點我看&lt;/button&gt;&lt;/a&gt;
+&lt;hr/&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;利用Brython繪製正齒輪嚙合 (17t-11t-13t)的圖&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;hr/&gt;
+&lt;b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week13.html"&gt;[Week 13]&lt;/a&gt; 第十三週課程內容概要整理。&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week13.html"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;點我看&lt;/button&gt;&lt;/a&gt;
+&lt;hr/&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;利用Brython繪製正齒輪嚙合 (17t-13t-11t-14t)的圖&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;hr/&gt;
+&lt;b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week15.html"&gt;[Week 15]&lt;/a&gt; 第十五週課程內容概要整理。&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week15.html"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;點我看&lt;/button&gt;&lt;/a&gt;
+&lt;hr/&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 , 壓力角 20, 齒數為 36 齒, 且只有上半齒形的漸開線正齒輪輪廓&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;建立第二個 800x600 的畫布, 請畫出只有一齒輪廓, 且充滿畫布 80% 範圍的正齒輪, 且該齒輪廓下方水平線, 連接兩端齒根圓點交的直線以紅色繪製, 且在齒輪下方以藍色字元寫上自己的學號&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;由最右邊齒數 16 齒開始囓合, 依序增加 2 齒, 當排至平面四齒囓合後, 第五位組員則以垂直方向向下囓合兩個齒輪後, 轉由右至左水平排列&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;hr/&gt;
+&lt;b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week16.html"&gt;[Week 16]&lt;/a&gt; Fossil 作業上傳&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week16.html"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;點我看&lt;/button&gt;&lt;/a&gt;
+&lt;hr/&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使用 Fossil 將作業檔案上傳&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;hr/&gt;
+&lt;b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17.html"&gt;[Week 17]&lt;/a&gt; 第十七週課程內容概要整理。&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17.html"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;點我看&lt;/button&gt;&lt;/a&gt;
+&lt;hr/&gt;
+以下各任務操作過程, 請以 ShareX 錄成 mp4, 以"學號-2017springcd-final-1.mp4 ~ 學號-2017springcd-final-7.mp4" 命名, 分別送到個人的 Youtube, Vimeo 與 Fossil SCM.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在各自的倉儲中, 建立一個雙足 solvepace 機構零組件, 存入 final 子目錄中&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在各自的網誌上, 以 "W17 行走機構 2D 靜態繪圖"為標題, 以 Brython 畫出行走機構的示意圖.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在各自的倉儲中, 將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄, 並設法導入其中的 script1.py 進行 axises() 繪圖函式的呼叫, 在任務 2 的圖中畫出座標軸.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在各自的網誌中設法動態顯示出任務 1 所完成的零組件.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;將任務 1 所完成的行走機構匯入 V-rep, 並設法模擬雙足機構作動過程.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;請在網誌中, 以"期末分組專題"為標題, 說明在分組行走機構模擬與實作過程中所扮演的角色, 並說明所負責完成的任務.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;歷史紀錄：&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week9_1.html"&gt;[懶人包] 期中前要做的事&lt;/a&gt; &lt;/p&gt;
+&lt;h3&gt;影片頻道&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;Youtube 頻道期中後到期末總整理 全集：&lt;a href="https://www.youtube.com/watch?v=VC-DQGaIhDA&amp;list=PLPptPPsTHjR0mL9QEVbickJG95F0zzs0h"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;點我看&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vimeo 歷史紀錄：&lt;a href="https://vimeo.com/user44960495"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;點我看&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;歷史 OnShape 教學：&lt;a href="https://40423117.github.io/2016fallcadp_hw/blog/onshape-fen-zu-zuo-ye-week13.html"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;點我看&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;補充&lt;/h3&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_final.html"&gt;[期末分組專題]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d_axis.html"&gt;[Final] axises繪圖函式呼叫&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d.html"&gt;W17 行走機構 2D 靜態繪圖&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week16.html"&gt;[Fossil 上傳方式]&lt;/a&gt;&lt;/p&gt;</summary><category term="week18"></category></entry><entry><title>[Week 17] 期末協同查驗與自評</title><link href="./week17.html" rel="alternate"></link><published>2017-06-15T11:00:00+08:00</published><updated>2017-06-15T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-15:./week17.html</id><summary type="html">&lt;p&gt;[Week 17] 第十七週課程內容概要整理。&lt;/p&gt;
 &lt;p&gt;以下各任務操作過程, 請以 ShareX 錄成 mp4, 以"學號-2017springcd-final-1.mp4 ~ 學號-2017springcd-final-7.mp4" 命名, 分別送到個人的 Youtube, Vimeo 與 Fossil SCM.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -28,6 +114,9 @@
 
 &lt;/hr&gt;
 
+&lt;p&gt;&lt;hr&gt;
+(已按照順序排序)  &lt;button onClick="lity('https://www.youtube.com/watch?v=VC-DQGaIhDA&amp;list=PLPptPPsTHjR0mL9QEVbickJG95F0zzs0h')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Youtube_105_2_期中後到期末清單整理 &lt;/button&gt;
+&lt;hr&gt;&lt;/p&gt;
 &lt;h3&gt;第一項&lt;/h3&gt;
 &lt;hr&gt;
 
@@ -58,7 +147,7 @@
 
 &lt;p&gt;在各自的網誌上, 以 "W17 行走機構 2D 靜態繪圖"為標題, 以 Brython 畫出行走機構的示意圖.&lt;/p&gt;
 &lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/TDWwsVW2AaE?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Videos：40423117-2017springcd-final-2 &lt;/button&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;快速連結：&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d.html"&gt;W17 行走機構 2D 靜態繪圖&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;快速連結[完整文章]：&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d.html"&gt;W17 行走機構 2D 靜態繪圖&lt;/a&gt; &lt;/p&gt;
 &lt;h3&gt;第三項  (&lt;small&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d_axis.html"&gt;Final axises繪圖函式呼叫&lt;/a&gt; &lt;/small&gt;)&lt;/h3&gt;
 &lt;hr&gt;
 
@@ -66,7 +155,7 @@
 &lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/9xB-wKKzoyc?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Videos：40423117-2017springcd-final-3 &lt;/button&gt;&lt;/p&gt;
 &lt;p&gt;我們可以查看到 cdbw17 中倉儲的 default branch 僅有 master，且老師要求的 w17子目錄則在 master分支下，以下的程式碼，則表示我們要追蹤子模組中的 master分支。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;git submodule add -b master https://github.com/scrum-1/cdbw17.git cdbw17&lt;/code&gt; &lt;/p&gt;
-&lt;p&gt;&lt;b&gt;快速連結：&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d_axis.html"&gt;Final axises繪圖函式呼叫&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;快速連結[完整文章]：&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_2d_axis.html"&gt;Final axises繪圖函式呼叫&lt;/a&gt; &lt;/p&gt;
 &lt;h3&gt;第四項&lt;/h3&gt;
 &lt;hr&gt;
 
@@ -121,15 +210,17 @@ window.onload = function(){
 &lt;hr&gt;
 
 &lt;p&gt;請在網誌中, 以"期末分組專題"為標題, 說明在分組行走機構模擬與實作過程中所扮演的角色, 並說明所負責完成的任務.&lt;/p&gt;
-&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/rzuJ6d3NtZI?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Videos：40423117-2017springcd-final-6 &lt;/button&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;快速連結：&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_final.html"&gt;期末分組專題&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;協同部分：40423117 我負責設計部分零組件&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/EElIYxUixuw?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 40423117-2017springcd-final-6  &lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/rzuJ6d3NtZI?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 組裝點我觀看 &lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;快速連結[完整文章]：&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week17_final.html"&gt;期末分組專題&lt;/a&gt; &lt;/p&gt;
 &lt;h3&gt;第七項  (&lt;small&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week16.html"&gt;Week 16 Fossil 作業上傳&lt;/a&gt; &lt;/small&gt;)&lt;/h3&gt;
 &lt;hr&gt;
 
 &lt;p&gt;各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.&lt;/p&gt;
 &lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/OhLDX_7pfWE?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Videos：40423117-2017springcd-final-7 &lt;/button&gt;&lt;/p&gt;
 &lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/8_40JZBbh_w?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Videos：40423117-2017springcd-final-7_fossil &lt;/button&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;快速連結：&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week16.html"&gt;Week 16 Fossil 作業上傳&lt;/a&gt; &lt;/p&gt;</summary><category term="week17"></category></entry><entry><title>W17 行走機構 2D 靜態繪圖</title><link href="./week17_2d.html" rel="alternate"></link><published>2017-06-15T10:00:00+08:00</published><updated>2017-06-15T10:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-15:./week17_2d.html</id><summary type="html">&lt;p&gt;[W17 行走機構 2D 靜態繪圖]&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;快速連結[完整文章]：&lt;/b&gt;&lt;a href="https://40423117.github.io/2017springcd_hw/blog/week16.html"&gt;Week 16 Fossil 作業上傳&lt;/a&gt; &lt;/p&gt;</summary><category term="week17"></category></entry><entry><title>W17 行走機構 2D 靜態繪圖</title><link href="./week17_2d.html" rel="alternate"></link><published>2017-06-15T10:00:00+08:00</published><updated>2017-06-15T10:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-15:./week17_2d.html</id><summary type="html">&lt;p&gt;[W17 行走機構 2D 靜態繪圖]&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;建立一個雙足 solvepace 機構零組件, 以 "W17 行走機構 2D 靜態繪圖"為標題, 使用 Brython 畫出行走機構的示意圖.&lt;/li&gt;
 &lt;/ol&gt;
@@ -295,8 +386,91 @@ ctx.fill()
 
 &lt;/hr&gt;
 
-&lt;!-- 導入 Brython 標準程式庫 --&gt;
+&lt;h3&gt;講解：&lt;/h3&gt;
+&lt;hr/&gt;
 
+&lt;p&gt;&lt;img src="./../final/3/1.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;把外部的倉庫 clone 到你的子目錄中，通過 git submodule add 的命令將外部專案加為子模組，並命名為cdbw17。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git submodule add -b gh-pages https://github.com/scrum-1/cdbw17.git cdbw17&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../final/3/2.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;將原先設定共用程式路徑的位置，改到我們子模組 cdbw17中的w17程式路徑。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;./../cdbw17/w17&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;./ &lt;/code&gt;為我們當前的目錄，在blog底下。故我們需退一個目錄在進到cdbw17中，則需&lt;code&gt;./../ &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../final/3/3.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;hr/&gt;
+
+&lt;p&gt;我們先看看 script1.py 中的程式是怎麼寫的。&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+from browser import document
+import math
+# 準備繪圖畫布
+'''
+canvas = document["canvas1"]
+ctx = canvas.getContext("2d")
+'''
+
+def axises(ctx):
+    ctx.beginPath()
+    # 設定線的寬度為 5 個單位
+    ctx.lineWidth = 5
+    # 將畫筆移動到 (0, 0) 座標點
+    ctx.moveTo(0, 0)
+    # 然後畫直線到 (100, 0) 座標點
+    ctx.strokeStyle = "red"
+    ctx.lineTo(100, 0)
+    ctx.lineTo(90, 10)
+    ctx.stroke()
+    ctx.closePath()
+
+    ctx.beginPath()
+    # 畫右上左下的斜線
+    ctx.moveTo(0, 0)
+    ctx.strokeStyle = "green"
+    ctx.lineTo(0, 100)
+    ctx.lineTo(10, 90)
+    # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+    #ctx.strokeStyle = "blue"
+    # 實際執行畫線
+    ctx.stroke()
+    ctx.closePath()
+'''
+axises(ctx)
+# 以下可以利用 ctx 物件進行畫圖
+# 先畫一條直線
+ctx.beginPath()
+# 設定線的寬度為 1 個單位
+ctx.lineWidth = 1
+# 將畫筆移動到 (100, 100) 座標點
+ctx.moveTo(100, 100)
+# 然後畫直線到 (150, 200) 座標點
+ctx.lineTo(150, 200)
+# 畫右上左下的斜線
+ctx.moveTo(150, 100)
+ctx.lineTo(100, 200)
+# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+ctx.strokeStyle = "blue"
+# 實際執行畫線
+ctx.stroke()
+ctx.closePath()
+'''
+&lt;/pre&gt;
+
+&lt;p&gt;必須加入這段，才會在我們剛剛設定的共用程式路徑底下，尋找 script1.py 這個檔案導入我們的程式中。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;import script1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;剛剛設定的共用程式路徑
+&lt;pre class="brush: python"&gt;
+&lt;script&gt;
+window.onload=function(){
+// 設定 ./../cdbw17/w17 為共用程式路徑
+brython({debug:1, pythonpath:['./../cdbw17/w17']});
+}
+&lt;/script&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../final/3/4.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;導入程式之後，我們要執行老師要的呼叫axises(ctx)函式，畫座標軸，光只有打 axises(ctx) 是無法執行的，故我們必須打&lt;code&gt;script1.axises(ctx)&lt;/code&gt; 呼叫 script1 模組中的 axises(ctx)函式 ，才能完整執行。&lt;/p&gt;
+&lt;h3&gt;成果展示&lt;/h3&gt;
+&lt;p&gt;&lt;hr/&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
 &lt;script src="./../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
 
 &lt;script src="./../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
@@ -305,12 +479,12 @@ ctx.fill()
 
 &lt;script&gt;
 window.onload=function(){
-// 設定 data/py 為共用程式路徑
+// 設定 ./../cdbw17/w17 為共用程式路徑
 brython({debug:1, pythonpath:['./../cdbw17/w17']});
 }
 &lt;/script&gt;
 
-&lt;!-- 以下實際利用  Brython 畫兩條直線 --&gt;
+&lt;!-- 以下實際利用  Brython 畫2D示意圖--&gt;
 
 &lt;canvas id="two_foot" width="800" height="600"&gt;&lt;/canvas&gt;
 
@@ -325,7 +499,6 @@ ctx = canvas.getContext("2d")
 
 script1.axises(ctx)
 
-#繪製第一隻腳
 ctx.beginPath()
 ctx.moveTo(180,420)
 ctx.lineTo(320,480)
@@ -339,7 +512,6 @@ ctx.lineTo(180,420)
 ctx.fillStyle="black"
 ctx.fill()
 
-#繪製第二隻腳
 ctx.beginPath()
 ctx.moveTo(406.02,128.666)
 ctx.lineTo(357.119,150.3)
@@ -369,7 +541,6 @@ ctx = canvas.getContext("2d")
 
 script1.axises(ctx)
 
-#繪製第一隻腳
 ctx.beginPath()
 ctx.moveTo(180,420)
 ctx.lineTo(320,480)
@@ -383,7 +554,6 @@ ctx.lineTo(180,420)
 ctx.fillStyle="black"
 ctx.fill()
 
-#繪製第二隻腳
 ctx.beginPath()
 ctx.moveTo(406.02,128.666)
 ctx.lineTo(357.119,150.3)
@@ -408,8 +578,27 @@ ctx.fill()
 &lt;h3&gt;四足機構模擬與實作&lt;/h3&gt;
 &lt;hr&gt;
 
-&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/rzuJ6d3NtZI?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片點我觀看 &lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;協同部分：40423117 我負責設計部分零組件&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/EElIYxUixuw?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 40423117-2017springcd-final-6  &lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/rzuJ6d3NtZI?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 組裝點我觀看 &lt;/button&gt;&lt;/p&gt;
 &lt;h3&gt;檔案分享&lt;/h3&gt;
+&lt;hr&gt;
+
+&lt;hr&gt;
+
+&lt;h5&gt;Onshape協同與組裝部分&lt;/h5&gt;
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/24a12278c97b807dc7ac2b6d/w/6b973f0f7bd23cfadae3f999/e/88a212526ba41d2a2b339c5f"&gt;Onshape零組件協同&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/e7e5cbd7cf98f9f90239d050/w/7bfd05985ae3b654fb75453b/e/62eccab7800ec351d1884920"&gt;Onshape零組件組裝&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;hr&gt;  &lt;/p&gt;
+&lt;h5&gt;STL檔案，3DP部分&lt;/h5&gt;
 &lt;hr&gt;
 
 &lt;ul&gt;
@@ -458,23 +647,40 @@ ctx.fill()
 &lt;hr/&gt;
 
 &lt;p&gt;&lt;button onClick="lity('https://www.youtube.com/embed/8_40JZBbh_w?rel=0')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片點我觀看 &lt;/button&gt;&lt;/p&gt;
-&lt;h3&gt;部分講解：&lt;/h3&gt;
+&lt;h3&gt;講解：&lt;/h3&gt;
 &lt;hr/&gt;
 
-&lt;p&gt;讓 fossil 能夠自動上傳&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../final/7/1.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;[mkdir]為建立一個名為 cdag2 的資料夾，[cd] 為進去名為 cdag2 的資料夾  [註：cdag2 為我本學期的組別，同學請自行更改]&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mkdir cdag2&lt;/code&gt;  &lt;code&gt;cd cdag2&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;讓 fossil 能夠自動上傳 [註：cdag2 為我本學期的組別，同學請自行更改]&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;fossil clone https://帳號@mde2a2.kmol.info/cdag2 cdag2.fossil&lt;/code&gt; &lt;/p&gt;
-&lt;p&gt;必須再建立一個資料夾，進到裡面後開啟fossil，如果沒有此步驟，則cdag2.fossil檔案會跟著上傳哦！&lt;/p&gt;
+&lt;p&gt;&lt;hr/&gt;
+&lt;img src="./../final/7/2.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;[mkdir]為建立一個名為 fossils 的資料夾，[cd] 為進去名為 fossils 的資料夾  [註：這個資料夾為開啟fossils用]&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mkdir fossils&lt;/code&gt;  &lt;code&gt;cd fossils&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;進到裡面後開啟fossil，&lt;b&gt;&lt;font color="#FF0000"&gt;如果沒有此步驟，則cdag2.fossil檔案會跟著上傳哦！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;fossil open ./../cdag2.fossil&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;hr/&gt;
+&lt;img src="./../final/7/3.JPG" height="450px"&gt;&lt;/p&gt;
 &lt;p&gt;告訴fossil加入了所有檔案&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;fossil add .&lt;/code&gt; &lt;/p&gt;
-&lt;p&gt;Commit訊息&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;fossil commit -m "add final_hw_40423117"&lt;/code&gt; &lt;/p&gt;</summary><category term="week16"></category></entry><entry><title>[Week 15] 課程內容整理</title><link href="./week15.html" rel="alternate"></link><published>2017-06-01T11:00:00+08:00</published><updated>2017-06-01T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-01:./week15.html</id><summary type="html">&lt;p&gt;[Week 15] 第十五週課程內容概要整理。&lt;/p&gt;
+&lt;p&gt;&lt;hr/&gt;
+&lt;img src="./../final/7/4.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;Commit訊息  [註：因在第一步驟fossil clone的設置，Commit完後會自動提交]&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;fossil commit -m "add final_hw_40423117"&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;hr/&gt;
+&lt;img src="./../final/7/5.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;等待將檔案上傳完畢即可。  &lt;a href="https://mde2a2.kmol.info/cdag2/home"&gt;Cdag2.html&lt;/a&gt;&lt;/p&gt;</summary><category term="week16"></category></entry><entry><title>[Week 15] 課程內容整理</title><link href="./week15.html" rel="alternate"></link><published>2017-06-01T11:00:00+08:00</published><updated>2017-06-01T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-01:./week15.html</id><summary type="html">&lt;p&gt;[Week 15] 第十五週課程內容概要整理。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 , 壓力角 20, 齒數為 36 齒, 且只有上半齒形的漸開線正齒輪輪廓&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;建立第二個 800x600 的畫布, 請畫出只有一齒輪廓, 且充滿畫布 80% 範圍的正齒輪, 且該齒輪廓下方水平線, 連接兩端齒根圓點交的直線以紅色繪製, 且在齒輪下方以藍色字元寫上自己的學號&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;由最右邊齒數 16 齒開始囓合, 依序增加 2 齒, 當排至平面四齒囓合後, 第五位組員則以垂直方向向下囓合兩個齒輪後, 轉由右至左水平排列&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -651,8 +857,6 @@ ctx.stroke()
 
 &lt;/script&gt;
 
-&lt;!-- 以下實際利用  Brython 繪圖--&gt;
-
 &lt;p&gt;2.建立第二個 800x600 的畫布, 請畫出只有一齒輪廓, 且充滿畫布 80% 範圍的正齒輪, 且該齒輪廓下方水平線, 連接兩端齒根圓點交的直線以紅色繪製, 且在齒輪下方以藍色字元寫上自己的學號.&lt;/p&gt;
 &lt;canvas id="onegear1" width="800" height="600"&gt;&lt;/canvas&gt;
 
@@ -788,13 +992,337 @@ r = 8*(canvas.height/2)
 n = 20
 # 壓力角
 pa = 20
-Spur(ctx).Gear(x, y, r, n, pa, "pink")
+Spur(ctx).Gear(x, y, r, n, pa, "black")
 
 
 
 ctx.fillStyle = "#FF0000"
 ctx.font = "30px ScriptS"
 ctx.fillText("40423117",(canvas.width)/2-60,(canvas.height)/2+280)
+ctx.stroke()
+
+&lt;/script&gt;
+
+&lt;ol&gt;
+&lt;li&gt;由最右邊齒數 16 齒開始囓合, 依序增加 2 齒, 當排至平面四齒囓合後, 第五位組員則以垂直方向向下囓合兩個齒輪後, 轉由右至左水平排列&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- 以下實際利用  Brython 繪圖--&gt;
+
+&lt;canvas id='gear3' width='1200' height='800'&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+# 導入 browser 模組中的 document, 並設為 doc 變數
+from browser import document as doc
+import math
+# deg 為角度轉為徑度的轉換因子
+deg = math.pi/180.
+# 定義 Spur 類別
+class Spur(object):
+    def __init__(self, ctx):
+        self.ctx = ctx
+
+    def create_line(self, x1, y1, x2, y2, width=3, fill="red"):
+        self.ctx.beginPath()
+        self.ctx.lineWidth = width
+        self.ctx.moveTo(x1, y1)
+        self.ctx.lineTo(x2, y2)
+        self.ctx.strokeStyle = fill
+        self.ctx.stroke()
+    #
+    # 定義一個繪正齒輪的繪圖函式
+    # midx 為齒輪圓心 x 座標
+    # midy 為齒輪圓心 y 座標
+    # rp 為節圓半徑, n 為齒數
+    # pa 為壓力角 (deg)
+    # rot 為旋轉角 (deg)
+    # 已經針對 n 大於等於 52 齒時的繪圖錯誤修正, 因為 base circle 與齒根圓大小必須進行判斷
+    def Gear(self, midx, midy, rp, n=20, pa=20, color="black"):
+        # 齒輪漸開線分成 15 線段繪製
+        imax = 15
+        # 在輸入的畫布上繪製直線, 由圓心到節圓 y 軸頂點畫一直線
+        self.create_line(midx, midy, midx, midy-rp)
+        # 畫出 rp 圓, 畫圓函式尚未定義
+        #create_oval(midx-rp, midy-rp, midx+rp, midy+rp, width=2)
+        # a 為模數 (代表公制中齒的大小), 模數為節圓直徑(稱為節徑)除以齒數
+        # 模數也就是齒冠大小
+        a=2*rp/n
+        # d 為齒根大小, 為模數的 1.157 或 1.25倍, 這裡採 1.25 倍
+        d=2.5*rp/n
+        # ra 為齒輪的外圍半徑
+        ra=rp+a
+        # 畫出 ra 圓, 畫圓函式尚未定義
+        #create_oval(midx-ra, midy-ra, midx+ra, midy+ra, width=1)
+        # rb 則為齒輪的基圓半徑
+        # 基圓為漸開線長齒之基準圓
+        rb=rp*math.cos(pa*deg)
+        # 畫出 rb 圓 (基圓), 畫圓函式尚未定義
+        #create_oval(midx-rb, midy-rb, midx+rb, midy+rb, width=1)
+        # rd 為齒根圓半徑
+        rd=rp-d
+        # 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
+        # 畫出 rd 圓 (齒根圓), 畫圓函式尚未定義
+        #create_oval(midx-rd, midy-rd, midx+rd, midy+rd, width=1)
+        # dr 則為基圓到齒頂圓半徑分成 imax 段後的每段半徑增量大小
+        # 將圓弧分成 imax 段來繪製漸開線
+        # 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
+        if rd&gt;rb:
+            dr = (ra-rd)/imax
+        else:
+            dr=(ra-rb)/imax
+        # tan(pa*deg)-pa*deg 為漸開線函數
+        sigma=math.pi/(2*n)+math.tan(pa*deg)-pa*deg
+        for j in range(n):
+            ang=-2.*j*math.pi/n+sigma
+            ang2=2.*j*math.pi/n+sigma
+            lxd=midx+rd*math.sin(ang2-2.*math.pi/n)
+            lyd=midy-rd*math.cos(ang2-2.*math.pi/n)
+            for i in range(imax+1):
+                # 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
+                if rd&gt;rb:
+                    r=rd+i*dr
+                else:
+                    r=rb+i*dr
+                theta=math.sqrt((r*r)/(rb*rb)-1.)
+                alpha=theta-math.atan(theta)
+                xpt=r*math.sin(alpha-ang)
+                ypt=r*math.cos(alpha-ang)
+                xd=rd*math.sin(-ang)
+
+                yd=rd*math.cos(-ang)
+                # i=0 時, 繪線起點由齒根圓上的點, 作為起點
+                if(i==0):
+                    last_x = midx+xd
+                    last_y = midy-yd
+                # 由左側齒根圓作為起點, 除第一點 (xd,yd) 齒根圓上的起點外, 其餘的 (xpt,ypt)則為漸開線上的分段點
+                self.create_line((midx+xpt),(midy-ypt),(last_x),(last_y),fill=color)
+                # 最後一點, 則為齒頂圓
+                if(i==imax):
+                    lfx=midx+xpt
+                    lfy=midy-ypt
+                last_x = midx+xpt
+                last_y = midy-ypt
+            # the line from last end of dedendum point to the recent
+            # end of dedendum point
+            # lxd 為齒根圓上的左側 x 座標, lyd 則為 y 座標
+            # 下列為齒根圓上用來近似圓弧的直線
+            self.create_line((lxd),(lyd),(midx+xd),(midy-yd),fill=color)
+            for i in range(imax+1):
+                # 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
+                if rd&gt;rb:
+                    r=rd+i*dr
+                else:
+                    r=rb+i*dr
+                theta=math.sqrt((r*r)/(rb*rb)-1.)
+                alpha=theta-math.atan(theta)
+                xpt=r*math.sin(ang2-alpha)
+                ypt=r*math.cos(ang2-alpha)
+                xd=rd*math.sin(ang2)
+                yd=rd*math.cos(ang2)
+                # i=0 時, 繪線起點由齒根圓上的點, 作為起點
+                if(i==0):
+                    last_x = midx+xd
+                    last_y = midy-yd
+                # 由右側齒根圓作為起點, 除第一點 (xd,yd) 齒根圓上的起點外, 其餘的 (xpt,ypt)則為漸開線上的分段點
+                self.create_line((midx+xpt),(midy-ypt),(last_x),(last_y),fill=color)
+                # 最後一點, 則為齒頂圓
+                if(i==imax):
+                    rfx=midx+xpt
+                    rfy=midy-ypt
+                last_x = midx+xpt
+                last_y = midy-ypt
+            # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
+            # 下列為齒頂圓上用來近似圓弧的直線
+            self.create_line(lfx,lfy,rfx,rfy,fill=color)
+
+# 準備在 id="gear3" 的 canvas 中繪圖
+canvas = doc["gear3"]
+ctx = canvas.getContext("2d")
+
+# 模數決定齒的尺寸大小, 囓合齒輪組必須有相同的模數與壓力角
+# 壓力角 pa 單位為角度
+pa = 20
+# 第1齒輪齒數
+n_g1 = 16
+# 第2齒輪齒數
+n_g2 = 18
+# 第3齒輪齒數
+n_g3 = 20
+# 第4齒輪齒數
+n_g4 = 22
+# 第5齒輪齒數
+n_g5 = 24
+# 第6齒輪齒數
+n_g6 = 26
+# 第7齒輪齒數
+n_g7 = 28
+# m 為模數, 根據畫布的寬度, 計算適合的模數大小
+m = (0.6*canvas.width)/(n_g1+n_g2+n_g3+n_g4)
+# 根據模數 m, 計算各齒輪的節圓半徑
+rp_g1 = m*n_g1/2
+rp_g2 = m*n_g2/2
+rp_g3 = m*n_g3/2
+rp_g4 = m*n_g4/2
+rp_g5 = m*n_g5/2
+rp_g6 = m*n_g6/2
+rp_g7 = m*n_g7/2
+#單一正齒輪繪圖呼叫格式 Spur(ctx).Gear(x, y, r, n, pa, "blue")
+# 開始繪製囓合齒輪輪廓
+# 繪圖第1齒輪的圓心座標, 因為希望繪圖佔去 canvas.width 的 80%, 所以兩邊各預留 10% 距離
+x_g1 = canvas.width*0.05+rp_g1
+# y 方向繪圖區域上方預留 canvas.height 的 20%
+y_g1 = canvas.height*0.1+rp_g1
+# 第2齒輪的圓心座標, 假設排列成水平, 表示各齒輪圓心 y 座標相同
+x_g2 = x_g1 + rp_g1 + rp_g2
+y_g2 = y_g1
+# 第3齒輪的圓心座標
+x_g3 = x_g1 + rp_g1 + 2*rp_g2 + rp_g3
+y_g3 = y_g1
+
+# 第4齒輪的圓心座標
+x_g4 = x_g1 + rp_g1 + 2*rp_g2 + 2*rp_g3+rp_g4
+y_g4 = y_g1
+
+# 第5齒輪的圓心座標
+x_g5 = x_g1 + rp_g1 + 2*rp_g2 + 2*rp_g3+rp_g4
+y_g5 = y_g4+rp_g4+rp_g5
+
+# 第6齒輪的圓心座標
+x_g6 =x_g1 + rp_g1 + 2*rp_g2 + 2*rp_g3+rp_g4
+y_g6 = y_g5+rp_g5+rp_g6
+
+# 第7齒輪的圓心座標
+x_g7 =x_g6-rp_g6-rp_g7
+y_g7 = y_g5+rp_g5+rp_g6
+
+# 將第1齒輪順時鐘轉 90 度, 也就是 math.pi/2
+# 使用 ctx.save() 與 ctx.restore() 以確保各齒輪以相對座標進行旋轉繪圖
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g1, y_g1)
+# rotate to engage
+ctx.rotate(math.pi/2)
+# put it back
+ctx.translate(-x_g1, -y_g1)
+# 繪製第一個齒輪輪廓
+Spur(ctx).Gear(x_g1, y_g1, rp_g1, n_g1, pa, "black")
+ctx.restore()
+
+ctx.beginPath()
+ctx.fillStyle = "#0000FF"
+ctx.font = "20px ScriptS"
+ctx.fillText("40423101 ",x_g1-20, y_g1)
+ctx.stroke()
+
+# 將第2齒輪逆時鐘轉 90 度之後, 再多轉一齒, 以便與第1齒輪進行囓合
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g2, y_g2)
+# rotate to engage
+ctx.rotate(-math.pi/2-math.pi/n_g2)
+# put it back
+ctx.translate(-x_g2, -y_g2)
+Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "red")
+ctx.restore()
+
+ctx.beginPath()
+ctx.fillStyle = "#0000FF"
+ctx.font = "20px ScriptS"
+ctx.fillText("40423103 ",x_g2-20, y_g2)
+ctx.stroke()
+
+# 將第3齒輪逆時鐘轉 90 度之後, 再往回轉第2齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g3, y_g3)
+# rotate to engage
+# math.pi+math.pi/n_g2 為第2齒輪從順時鐘轉 90 度之後, 必須配合目前的標記線所作的齒輪 2 轉動角度, 要轉換到齒輪3 的轉動角度
+# 必須乘上兩齒輪齒數的比例, 若齒輪2 大, 則齒輪3 會轉動較快
+# 第1個 -math.pi/2 為將原先垂直的第3齒輪定位線逆時鐘旋轉 90 度
+# -math.pi/n_g3 則是第3齒與第2齒定位線重合後, 必須再逆時鐘多轉一齒的轉角, 以便進行囓合
+# (math.pi+math.pi/n_g2)*n_g2/n_g3 則是第2齒原定位線為順時鐘轉動 90 度, 
+# 但是第2齒輪為了與第1齒輪囓合, 已經距離定位線, 多轉了 180 度, 再加上第2齒輪的一齒角度, 因為要帶動第3齒輪定位, 
+# 這個修正角度必須要再配合第2齒與第3齒的轉速比加以轉換成第3齒輪的轉角, 因此乘上 n_g2/n_g3
+ctx.rotate(-math.pi/2-math.pi/n_g3+(math.pi+math.pi/n_g2)*n_g2/n_g3)
+# put it back
+ctx.translate(-x_g3, -y_g3)
+Spur(ctx).Gear(x_g3, y_g3, rp_g3, n_g3, pa, "black")
+ctx.restore()
+
+ctx.beginPath()
+ctx.fillStyle = "#0000FF"
+ctx.font = "20px ScriptS"
+ctx.fillText("40423104 ",x_g3-20, y_g3)
+ctx.stroke()
+
+# 將第4齒輪逆時鐘轉 90 度之後, 再往回轉第3齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g4, y_g4)
+# rotate to engage
+ctx.rotate(math.pi/2-math.pi/n_g4+(math.pi+math.pi/n_g3)*n_g3/n_g4*2)
+# put it back
+ctx.translate(-x_g4, -y_g4)
+Spur(ctx).Gear(x_g4, y_g4, rp_g4, n_g4, pa, "red")
+ctx.restore()
+
+ctx.beginPath()
+ctx.fillStyle = "#0000FF"
+ctx.font = "20px ScriptS"
+ctx.fillText("40423117 ",x_g4-20, y_g4)
+ctx.stroke()
+
+
+# 將第5齒輪逆時鐘轉 90 度之後, 再往回轉第3齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g5, y_g5)
+# rotate to engage
+ctx.rotate(math.pi/2-math.pi/n_g5+(math.pi+math.pi/n_g4)*n_g4/n_g5*2)
+# put it back
+ctx.translate(-x_g5, -y_g5)
+Spur(ctx).Gear(x_g5, y_g5, rp_g5, n_g5, pa, "black")
+ctx.restore()
+
+ctx.beginPath()
+ctx.fillStyle = "#0000FF"
+ctx.font = "20px ScriptS"
+ctx.fillText("40423136 ",x_g5-20, y_g5)
+ctx.stroke()
+
+
+# 將第6齒輪逆時鐘轉 90 度之後, 再往回轉第3齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g6, y_g6)
+# rotate to engage
+ctx.rotate(math.pi/2-math.pi/n_g6+(math.pi+math.pi/n_g5)*n_g5/n_g6*2)
+# put it back
+ctx.translate(-x_g6, -y_g6)
+Spur(ctx).Gear(x_g6, y_g6, rp_g6, n_g6, pa, "red")
+ctx.restore()
+
+ctx.beginPath()
+ctx.fillStyle = "#0000FF"
+ctx.font = "20px ScriptS"
+ctx.fillText("40423149 ",x_g6-20, y_g6)
+ctx.stroke()
+
+
+# 將第7齒輪逆時鐘轉 90 度之後, 再往回轉第3齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g7, y_g7)
+# rotate to engage
+ctx.rotate(-math.pi/2-math.pi/n_g7+(math.pi+math.pi/n_g6)*n_g6/n_g7)
+# put it back
+ctx.translate(-x_g7, -y_g7)
+Spur(ctx).Gear(x_g7, y_g7, rp_g7, n_g7, pa, "black")
+ctx.restore()
+
+ctx.beginPath()
+ctx.fillStyle = "#0000FF"
+ctx.font = "20px ScriptS"
+ctx.fillText("40423157 ",x_g7-20, y_g7)
 ctx.stroke()
 
 &lt;/script&gt;</summary><category term="week15"></category></entry><entry><title>[Week 13] 課程內容整理</title><link href="./week13.html" rel="alternate"></link><published>2017-05-18T11:00:00+08:00</published><updated>2017-05-18T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-05-18:./week13.html</id><summary type="html">&lt;p&gt;[Week 13] 第十三週課程內容概要整理。&lt;/p&gt;
@@ -1411,7 +1939,7 @@ container &lt;= str(sum)
 &lt;/pre&gt;
 
 &lt;h3&gt;加減乘除&lt;/h3&gt;
-&lt;p&gt;&lt;pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"&gt;
+&lt;p&gt;&lt;pre class="brush: python"&gt;
 def addend (a,b): #加運算
       return a+b
 def minus (a,b): #減運算
@@ -1422,9 +1950,8 @@ def divided (a,b):  #除運算
       return a/b
 &lt;/pre&gt;&lt;/p&gt;
 &lt;h3&gt;加減乘除程式碼&lt;/h3&gt;
-&lt;pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"&gt;
-
-&lt;p&gt;import sys
+&lt;p&gt;&lt;pre class="brush: python"&gt;
+import sys
 sys.path.append("./w10")
 import alldef&lt;/p&gt;
 &lt;p&gt;a=3
@@ -1436,8 +1963,8 @@ divided = alldef.divided (a,b)  #除運算&lt;/p&gt;
 &lt;p&gt;print('加運算=', add)
 print('減運算=', minus)
 print('乘運算=', tines)
-print('除運算=', divided)&lt;/p&gt;
-&lt;/pre&gt;</summary><category term="week10"></category></entry><entry><title>[懶人包] 期中前要做的事</title><link href="./week9_1.html" rel="alternate"></link><published>2017-04-20T05:00:00+08:00</published><updated>2017-04-20T05:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-04-20:./week9_1.html</id><summary type="html">&lt;p&gt;有鑒於方便資料整合，故將期中之前的筆記統整成一篇文章，方便其他同學能夠利用最少的時間，學到期中前這幾週老師的課程內容。&lt;/p&gt;
+print('除運算=', divided)
+&lt;/pre&gt;&lt;/p&gt;</summary><category term="week10"></category></entry><entry><title>[懶人包] 期中前要做的事</title><link href="./week9_1.html" rel="alternate"></link><published>2017-04-20T05:00:00+08:00</published><updated>2017-04-20T05:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-04-20:./week9_1.html</id><summary type="html">&lt;p&gt;有鑒於方便資料整合，故將期中之前的筆記統整成一篇文章，方便其他同學能夠利用最少的時間，學到期中前這幾週老師的課程內容。&lt;/p&gt;
 
 
 &lt;hr/&gt;

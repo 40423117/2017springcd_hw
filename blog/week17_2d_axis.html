@@ -164,8 +164,91 @@
 
 </hr>
 
-<!-- 導入 Brython 標準程式庫 -->
+<h3>講解：</h3>
+<hr/>
 
+<p><img src="./../final/3/1.JPG" height="450px"></p>
+<p>把外部的倉庫 clone 到你的子目錄中，通過 git submodule add 的命令將外部專案加為子模組，並命名為cdbw17。</p>
+<p><code>git submodule add -b gh-pages https://github.com/scrum-1/cdbw17.git cdbw17</code></p>
+<p><img src="./../final/3/2.JPG" height="450px"></p>
+<p>將原先設定共用程式路徑的位置，改到我們子模組 cdbw17中的w17程式路徑。</p>
+<p><code>./../cdbw17/w17</code></p>
+<p><code>./ </code>為我們當前的目錄，在blog底下。故我們需退一個目錄在進到cdbw17中，則需<code>./../ </code></p>
+<p><img src="./../final/3/3.JPG" height="450px"></p>
+<hr/>
+
+<p>我們先看看 script1.py 中的程式是怎麼寫的。</p>
+<pre class="brush: python">
+from browser import document
+import math
+# 準備繪圖畫布
+'''
+canvas = document["canvas1"]
+ctx = canvas.getContext("2d")
+'''
+
+def axises(ctx):
+    ctx.beginPath()
+    # 設定線的寬度為 5 個單位
+    ctx.lineWidth = 5
+    # 將畫筆移動到 (0, 0) 座標點
+    ctx.moveTo(0, 0)
+    # 然後畫直線到 (100, 0) 座標點
+    ctx.strokeStyle = "red"
+    ctx.lineTo(100, 0)
+    ctx.lineTo(90, 10)
+    ctx.stroke()
+    ctx.closePath()
+
+    ctx.beginPath()
+    # 畫右上左下的斜線
+    ctx.moveTo(0, 0)
+    ctx.strokeStyle = "green"
+    ctx.lineTo(0, 100)
+    ctx.lineTo(10, 90)
+    # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+    #ctx.strokeStyle = "blue"
+    # 實際執行畫線
+    ctx.stroke()
+    ctx.closePath()
+'''
+axises(ctx)
+# 以下可以利用 ctx 物件進行畫圖
+# 先畫一條直線
+ctx.beginPath()
+# 設定線的寬度為 1 個單位
+ctx.lineWidth = 1
+# 將畫筆移動到 (100, 100) 座標點
+ctx.moveTo(100, 100)
+# 然後畫直線到 (150, 200) 座標點
+ctx.lineTo(150, 200)
+# 畫右上左下的斜線
+ctx.moveTo(150, 100)
+ctx.lineTo(100, 200)
+# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+ctx.strokeStyle = "blue"
+# 實際執行畫線
+ctx.stroke()
+ctx.closePath()
+'''
+</pre>
+
+<p>必須加入這段，才會在我們剛剛設定的共用程式路徑底下，尋找 script1.py 這個檔案導入我們的程式中。</p>
+<p><code>import script1</code></p>
+<p>剛剛設定的共用程式路徑
+<pre class="brush: python">
+<script>
+window.onload=function(){
+// 設定 ./../cdbw17/w17 為共用程式路徑
+brython({debug:1, pythonpath:['./../cdbw17/w17']});
+}
+</script>
+</pre></p>
+<p><img src="./../final/3/4.JPG" height="450px"></p>
+<p>導入程式之後，我們要執行老師要的呼叫axises(ctx)函式，畫座標軸，光只有打 axises(ctx) 是無法執行的，故我們必須打<code>script1.axises(ctx)</code> 呼叫 script1 模組中的 axises(ctx)函式 ，才能完整執行。</p>
+<h3>成果展示</h3>
+<p><hr/>
+<!-- 導入 Brython 標準程式庫 --></p>
 <script src="./../data/Brython-3.3.1/brython.js"></script>
 
 <script src="./../data/Brython-3.3.1/brython_stdlib.js"></script>
@@ -174,12 +257,12 @@
 
 <script>
 window.onload=function(){
-// 設定 data/py 為共用程式路徑
+// 設定 ./../cdbw17/w17 為共用程式路徑
 brython({debug:1, pythonpath:['./../cdbw17/w17']});
 }
 </script>
 
-<!-- 以下實際利用  Brython 畫兩條直線 -->
+<!-- 以下實際利用  Brython 畫2D示意圖-->
 
 <canvas id="two_foot" width="800" height="600"></canvas>
 
@@ -194,7 +277,6 @@ ctx = canvas.getContext("2d")
 
 script1.axises(ctx)
 
-#繪製第一隻腳
 ctx.beginPath()
 ctx.moveTo(180,420)
 ctx.lineTo(320,480)
@@ -208,7 +290,6 @@ ctx.lineTo(180,420)
 ctx.fillStyle="black"
 ctx.fill()
 
-#繪製第二隻腳
 ctx.beginPath()
 ctx.moveTo(406.02,128.666)
 ctx.lineTo(357.119,150.3)
@@ -238,7 +319,6 @@ ctx = canvas.getContext("2d")
 
 script1.axises(ctx)
 
-#繪製第一隻腳
 ctx.beginPath()
 ctx.moveTo(180,420)
 ctx.lineTo(320,480)
@@ -252,7 +332,6 @@ ctx.lineTo(180,420)
 ctx.fillStyle="black"
 ctx.fill()
 
-#繪製第二隻腳
 ctx.beginPath()
 ctx.moveTo(406.02,128.666)
 ctx.lineTo(357.119,150.3)
@@ -282,8 +361,13 @@ ctx.fill()
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="./week18.html">
+                            [Week 18] 期末總整理
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="./week17.html">
-                            [Week 17] 課程內容整理
+                            [Week 17] 期末協同查驗與自評
                         </a>
                     </li>
                     <li class="list-group-item">
@@ -299,11 +383,6 @@ ctx.fill()
                     <li class="list-group-item">
                         <a href="./week17_final.html">
                             期末分組專題
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./week16.html">
-                            [Week 16] Fossil 作業上傳
                         </a>
                     </li>
                 </ul>

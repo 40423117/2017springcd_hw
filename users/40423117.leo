@@ -85,6 +85,7 @@
 <v t="leo.20170626164054.1"><vh>@edit 20170615_final.md</vh></v>
 <v t="leo.20170626163527.1"><vh>@edit 20170615_2d.md</vh></v>
 <v t="leo.20170626183119.1"><vh>@edit 20170615_2d_axis.md</vh></v>
+<v t="leo.20170629094926.1"><vh>@edit 20170622.md</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
