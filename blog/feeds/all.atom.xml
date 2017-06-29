@@ -115,7 +115,7 @@
 &lt;/hr&gt;
 
 &lt;p&gt;&lt;hr&gt;
-(已按照順序排序)  &lt;button onClick="lity('https://www.youtube.com/watch?v=VC-DQGaIhDA&amp;list=PLPptPPsTHjR0mL9QEVbickJG95F0zzs0h')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Youtube_105_2_期中後到期末清單整理 &lt;/button&gt;
+&lt;button onClick="lity('https://www.youtube.com/watch?v=VC-DQGaIhDA&amp;list=PLPptPPsTHjR0mL9QEVbickJG95F0zzs0h')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Youtube_105_2_期中後到期末清單整理 &lt;/button&gt;  (已按照順序排序)&lt;br /&gt;
 &lt;hr&gt;&lt;/p&gt;
 &lt;h3&gt;第一項&lt;/h3&gt;
 &lt;hr&gt;
@@ -671,6 +671,10 @@ ctx.fill()
 &lt;p&gt;&lt;code&gt;fossil commit -m "add final_hw_40423117"&lt;/code&gt; &lt;/p&gt;
 &lt;p&gt;&lt;hr/&gt;
 &lt;img src="./../final/7/5.jpg" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;等待將檔案上傳完畢即可。這個結果沒有上傳完成，似乎是檔案太大，遠端空間已滿。&lt;/p&gt;
+&lt;p&gt;&lt;hr/&gt;
+&lt;img src="./../final/7/6.jpg" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;因無法使用影片上傳，故我寫了一個轉址的&lt;a href="https://mde2a2.kmol.info/cdag2/artifact/e4a15315c74e9c03"&gt;html檔&lt;/a&gt; 到fossil，上傳時，他會詢問你要不要轉編碼，請不要設置，因為html我已設置 UTF-8，只要輸入Y就好。&lt;/p&gt;
 &lt;p&gt;等待將檔案上傳完畢即可。  &lt;a href="https://mde2a2.kmol.info/cdag2/home"&gt;Cdag2.html&lt;/a&gt;&lt;/p&gt;</summary><category term="week16"></category></entry><entry><title>[Week 15] 課程內容整理</title><link href="./week15.html" rel="alternate"></link><published>2017-06-01T11:00:00+08:00</published><updated>2017-06-01T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-01:./week15.html</id><summary type="html">&lt;p&gt;[Week 15] 第十五週課程內容概要整理。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
