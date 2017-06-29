@@ -389,14 +389,14 @@ ctx.fill()
 &lt;h3&gt;講解：&lt;/h3&gt;
 &lt;hr/&gt;
 
-&lt;p&gt;&lt;img src="./../final/3/1.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../final/3/1.jpg" height="450px"&gt;&lt;/p&gt;
 &lt;p&gt;把外部的倉庫 clone 到你的子目錄中，通過 git submodule add 的命令將外部專案加為子模組，並命名為cdbw17。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;git submodule add -b gh-pages https://github.com/scrum-1/cdbw17.git cdbw17&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="./../final/3/2.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../final/3/2.jpg" height="450px"&gt;&lt;/p&gt;
 &lt;p&gt;將原先設定共用程式路徑的位置，改到我們子模組 cdbw17中的w17程式路徑。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;./../cdbw17/w17&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;./ &lt;/code&gt;為我們當前的目錄，在blog底下。故我們需退一個目錄在進到cdbw17中，則需&lt;code&gt;./../ &lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="./../final/3/3.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../final/3/3.jpg" height="450px"&gt;&lt;/p&gt;
 &lt;hr/&gt;
 
 &lt;p&gt;我們先看看 script1.py 中的程式是怎麼寫的。&lt;/p&gt;
@@ -466,7 +466,7 @@ brython({debug:1, pythonpath:['./../cdbw17/w17']});
 }
 &lt;/script&gt;
 &lt;/pre&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="./../final/3/4.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../final/3/4.jpg" height="450px"&gt;&lt;/p&gt;
 &lt;p&gt;導入程式之後，我們要執行老師要的呼叫axises(ctx)函式，畫座標軸，光只有打 axises(ctx) 是無法執行的，故我們必須打&lt;code&gt;script1.axises(ctx)&lt;/code&gt; 呼叫 script1 模組中的 axises(ctx)函式 ，才能完整執行。&lt;/p&gt;
 &lt;h3&gt;成果展示&lt;/h3&gt;
 &lt;p&gt;&lt;hr/&gt;
@@ -650,27 +650,27 @@ ctx.fill()
 &lt;h3&gt;講解：&lt;/h3&gt;
 &lt;hr/&gt;
 
-&lt;p&gt;&lt;img src="./../final/7/1.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../final/7/1.jpg" height="450px"&gt;&lt;/p&gt;
 &lt;p&gt;[mkdir]為建立一個名為 cdag2 的資料夾，[cd] 為進去名為 cdag2 的資料夾  [註：cdag2 為我本學期的組別，同學請自行更改]&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;mkdir cdag2&lt;/code&gt;  &lt;code&gt;cd cdag2&lt;/code&gt; &lt;/p&gt;
 &lt;p&gt;讓 fossil 能夠自動上傳 [註：cdag2 為我本學期的組別，同學請自行更改]&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;fossil clone https://帳號@mde2a2.kmol.info/cdag2 cdag2.fossil&lt;/code&gt; &lt;/p&gt;
 &lt;p&gt;&lt;hr/&gt;
-&lt;img src="./../final/7/2.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;img src="./../final/7/2.jpg" height="450px"&gt;&lt;/p&gt;
 &lt;p&gt;[mkdir]為建立一個名為 fossils 的資料夾，[cd] 為進去名為 fossils 的資料夾  [註：這個資料夾為開啟fossils用]&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;mkdir fossils&lt;/code&gt;  &lt;code&gt;cd fossils&lt;/code&gt; &lt;/p&gt;
 &lt;p&gt;進到裡面後開啟fossil，&lt;b&gt;&lt;font color="#FF0000"&gt;如果沒有此步驟，則cdag2.fossil檔案會跟著上傳哦！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;fossil open ./../cdag2.fossil&lt;/code&gt; &lt;/p&gt;
 &lt;p&gt;&lt;hr/&gt;
-&lt;img src="./../final/7/3.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;img src="./../final/7/3.jpg" height="450px"&gt;&lt;/p&gt;
 &lt;p&gt;告訴fossil加入了所有檔案&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;fossil add .&lt;/code&gt; &lt;/p&gt;
 &lt;p&gt;&lt;hr/&gt;
-&lt;img src="./../final/7/4.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;img src="./../final/7/4.jpg" height="450px"&gt;&lt;/p&gt;
 &lt;p&gt;Commit訊息  [註：因在第一步驟fossil clone的設置，Commit完後會自動提交]&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;fossil commit -m "add final_hw_40423117"&lt;/code&gt; &lt;/p&gt;
 &lt;p&gt;&lt;hr/&gt;
-&lt;img src="./../final/7/5.JPG" height="450px"&gt;&lt;/p&gt;
+&lt;img src="./../final/7/5.jpg" height="450px"&gt;&lt;/p&gt;
 &lt;p&gt;等待將檔案上傳完畢即可。  &lt;a href="https://mde2a2.kmol.info/cdag2/home"&gt;Cdag2.html&lt;/a&gt;&lt;/p&gt;</summary><category term="week16"></category></entry><entry><title>[Week 15] 課程內容整理</title><link href="./week15.html" rel="alternate"></link><published>2017-06-01T11:00:00+08:00</published><updated>2017-06-01T11:00:00+08:00</updated><author><name>40423117</name></author><id>tag:,2017-06-01:./week15.html</id><summary type="html">&lt;p&gt;[Week 15] 第十五週課程內容概要整理。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
